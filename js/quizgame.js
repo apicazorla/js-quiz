@@ -19,7 +19,7 @@ var score = 0;
 let questions = [{
     question: "Which bird is this?",
     imgSrc: "assets/birds/bellbird.jpg",
-    choiceA: "H<sub>2</sub>",
+    choiceA: "ácido 2-(acetiloxi)benzoico (PIN)",
     choiceB: "Bellbird/Korimako",
     choiceC: "Rock Wren/Tuke",
     choiceD: "Fernbird/Mātātā",
