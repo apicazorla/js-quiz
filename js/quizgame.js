@@ -27,7 +27,7 @@ let questions = [{
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/fantail.jpg",
-    choiceA: "Grey Warbler/Riroriro",
+    choiceA: "$$H_2O$$",
     choiceB: "Marsh Crake/Koitareke",
     choiceC: "Fantail/Pīwakawaka",
     choiceD: "Saddleback/Tīeke",
