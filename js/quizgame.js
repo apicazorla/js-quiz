@@ -17,9 +17,9 @@ var score = 0;
 //questions function so our getQuestion function later can get the right value from array
 
 let questions = [{
-    question: "$$H_2O_2$$",
+    question: "Which bird is this?",
     imgSrc: "assets/birds/bellbird.jpg",
-    choiceA: "New Zealand Falcon/Kārearea",
+    choiceA: "H<sub>2</sub>",
     choiceB: "Bellbird/Korimako",
     choiceC: "Rock Wren/Tuke",
     choiceD: "Fernbird/Mātātā",
