@@ -1,50 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Native Birds Quiz</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Con la etiqueta <link> enlazamos nuestro archivo html con el tipo de fuente que usaremos-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Con la etiqueta <link> enlazamos nuestro archivo html con el archivo css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Menú vertical</title>
 </head>
-
-
 <body>
-    <header>
-		<div class="menu_bar">
-			<a class="bt-menu" href="#"><span class="icon-list2"></span>Menu</a>
-		</div>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Menu</a></li>
-				<li><a href="index_1.html">Index_1</a></li>
-				<li><a href="index_2.html">Index_2</a></li>
-			</ul>
-		</nav>
-	</header>
-    <h1>Native Birds of New Zealand Quiz</h1>
-    <div class="container">
-        <div id="start"><button class="start-btn" onClick= "beginQuiz()">Begin the Quiz!</button>
-        <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br>
-        Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p></div>
-        <div id="quiz" style="display: none">
-            <h2 id="quizQuestion"></h2>
-            <div class = "img-div" id="quizImg"></div>
-            <div id="choices">
-                <button id="choiceA" onclick="check('A')"></button>
-                <button id="choiceB" onclick="check('B')"></button>
-                <button id="choiceC" onclick="check('C')"></button>
-                <button id="choiceD" onclick="check('D')"></button>
-            </div>
-            <div id="choiceResponse" style="display: none"></div>
-        </div>
-        <div id="scoreBlock" style="display: none"></div>
-        <div id="scoreMessage" style="display: none"></div>
-        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="js/quizgame.js"></script>
+  <h1>Vertical Menu</h1>
+  <!--Utilizamos la etiqueta <nav> para indicar al navegador que estamos haciendo un menú -->
+  <nav>
+      <!--Al usar la etiqueta <ul> estaremos creando una lista desordenada-->
+      <ul>
+          <!--Usamos la etiqueta <a> para los link y <target> para que la pagina se habra en otra pestaña-->
+          <li><a href="http://laboratoria.la" target="_blank">Inicio</a></li>
+          <li><a href="https://www.google.com/search?client=opera&q=betsy+vidal+espinoza&sourceid=opera&ie=UTF-8&oe=UTF-8" target="_blank">Sobre mí</a></li>
+          <li><a href="https://github.com/betsyvies/Menu-horizontal" target="_blank">Portafolio</a></li>
+          <li><a href="https://pe.linkedin.com/in/betsy-brigitte-vidal-espinoza-970aa2121" target="_blank">Contacto</a></li>
+          <li><a href="http://larepublica.pe" target="_blank">Noticias</a></li>
+      </ul> 
+    </nav>
 </body>
-
 </html>
