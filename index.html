@@ -1,51 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Barra de navegación</title>
-
-	<style>
-		body{background-color: #4642B8;padding: 150px;font-family: Arial;}
-		
-		#menu{
-			background-color: #000;
-
-		}
-
-		#menu ul{
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		#menu ul li{
-			display: inline-block;
-		}
-
-		#menu ul li a{
-			color: white;
-			display: block;
-			padding: 20px 20px;
-			text-decoration: none;
-		}
-
-		#menu ul li a:hover{
-			background-color: #42B881;
-		}
-
-		.item-r{
-			float: right;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Con la etiqueta <link> enlazamos nuestro archivo html con el tipo de fuente que usaremos-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Con la etiqueta <link> enlazamos nuestro archivo html con el archivo css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Menú vertical</title>
 </head>
 <body>
-	<div id="menu">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Acerca</a></li>
-			<li><a href="#">Servicios</a></li>
-			<li class="item-r"><a href="#">Contacto</a></li>
-		</ul>
-	</div>
+  <h1>Vertical Menu</h1>
+  <!--Utilizamos la etiqueta <nav> para indicar al navegador que estamos haciendo un menú -->
+  <nav>
+      <!--Al usar la etiqueta <ul> estaremos creando una lista desordenada-->
+      <ul>
+          <!--Usamos la etiqueta <a> para los link y <target> para que la pagina se habra en otra pestaña-->
+          <li><a href="http://laboratoria.la" target="_blank">Inicio</a></li>
+          <li><a href="https://www.google.com/search?client=opera&q=betsy+vidal+espinoza&sourceid=opera&ie=UTF-8&oe=UTF-8" target="_blank">Sobre mí</a></li>
+          <li><a href="https://github.com/betsyvies/Menu-horizontal" target="_blank">Portafolio</a></li>
+          <li><a href="https://pe.linkedin.com/in/betsy-brigitte-vidal-espinoza-970aa2121" target="_blank">Contacto</a></li>
+          <li><a href="http://larepublica.pe" target="_blank">Noticias</a></li>
+      </ul> 
+    </nav>
 </body>
 </html>
