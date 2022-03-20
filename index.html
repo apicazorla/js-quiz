@@ -1,36 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Native Birds Quiz</title>
-</head>
-
-<body>
-    <h1>Native Birds of New Zealand Quiz</h1>
-    <div class="container">
-        <div id="start"><button class="start-btn" onClick= "beginQuiz()">Begin the Quiz!</button>
-        <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br>
-        Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p></div>
-        <div id="quiz" style="display: none">
-            <h2 id="quizQuestion"></h2>
-            <div class = "img-div" id="quizImg"></div>
-            <div id="choices">
-                <button id="choiceA" onclick="check('A')"></button>
-                <button id="choiceB" onclick="check('B')"></button>
-                <button id="choiceC" onclick="check('C')"></button>
-                <button id="choiceD" onclick="check('D')"></button>
-            </div>
-            <div id="choiceResponse" style="display: none"></div>
-        </div>
-        <div id="scoreBlock" style="display: none"></div>
-        <div id="scoreMessage" style="display: none"></div>
-        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="inicio.css" />
+    <title>Mi Propia Web</title>
+  </head>
+  <body>
+  <div id="cabecera">
+    <img src="objetos/logo.gif" alt="Logo de la página" width="15%" />
+    <h1>Mi Propia Web</h1>	
+    <h2>Aprendiendo a construir un sitio Web</h2>
+  </div>
+  <div id="navegacion">
+    <div class="menu"><a href="index.html">Inicio</a></div>
+    <div class="menu"><a href="listas.html">Listas</a></div>
+    <div class="menu"><a href="tablas.html">Tablas</a></div>
+    <div class="menu"><a href="formulario.html">Formulario</a></div> 
+		<div class="vacio"></div>
+ </div>
+  <div id="texto">
+    <p>Hola, estoy aprendiendo a hacer Webs y este es mi primer párrafo, 
+       no es muy largo, pero es un párrafo.</p>
+    <p>Este ya es mi segundo párrafo. Para construir un sitio web como éste, 
+       hay que usar el lenguaje HTML. El HTML es un lenguaje de etiquetas.
+       Con las etiquetas indicamos qué tipo de contenido insertamos en la página.</p>
+  </div>
+  <div id="enlaces">
+    <h3>Los enlaces</h3>
+    <p>Estoy aprendiendo a poner enlaces en mi página. Aquí he puesto unos enlaces 
+       a unos sitios muy populares.</p>
+    <p>Pulsa en los siguientes enlaces para ir a las siguientes páginas.</p>
+    <div class="mienlace">
+    <p><a href="http://es.wikipedia.org" target="_blank">
+       <img src="objetos/wikipedia.jpg" alt="Logo Wikipedia" border="0" height="200" />
+    </a></p>
+    <p><a href="http://es.wikipedia.org" target="_blank">Consultar Wikipedia</a></p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="js/quizgame.js"></script>
-</body>
-
+    <div class="mienlace">
+    <p><a href="http://www.youtube.com"  target="_blank">
+       <img src="objetos/youtube.jpg" alt="Logo YouTube" border="0" height="200" />
+    </a></p>
+    <p><a href="https://www.youtube.com" target="_blank">Videos en You Tube</a></p>
+    </div>
+    <div class="mienlace">
+    <p><a href="http://elpais.com" target="_blank">
+       <img src="objetos/elpais.jpg" alt="Logo El_Pais" border="0" height="200" />
+    </a></p>
+    <p><a href="http://elpais.com" target="_blank">Noticias con el País</a></p>
+    </div>
+    <div class="vacio"></div>
+  </div>
+  <div id="pie">
+    <div class="col_pie">
+      <h4>Sobre este sitio</h4>
+      <p>Propiedad de : Nombre Apellido</p>
+      <p>Webmaster: Nombre Apellido</p>
+    </div>
+    <div class="col_pie">
+      <h4>Contactos</h4>
+      <p>Email : miemail@servidor.com</p>
+      <p>Teléfono: 900-00-00-00</p>
+    </div>
+    <div class="col_pie">
+      <h4>En las redes</h4>
+      <p>Facebook : (dirección de Facebook)</p>
+      <p>Twitter: (dirección de Twitter)</p>
+    </div>
+    <div class="vacio"></div>
+  </div>
+  </body>
 </html>
