@@ -1,44 +1,20 @@
 <html>
   <head>
-    <title>Barra de navegación horizontal con listas y estilos CSS</title>
-    <style type=»text/css»>
-      #navegador ul{
-      list-style-type: none;
-      text-align: center;
-      }
-      #navegador li{
-      display: inline;
-      text-align: center;
-      margin: 0 10px 0 0;
-      }
-      #navegador li a {
-      padding: 2px 7px 2px 7px;
-      color: #666;
-      background-color: #eeeeee;
-      border: 1px solid #ccc;
-      text-decoration: none;
-      }
-      #navegador li a:hover{
-      background-color: #333333;
-      color: #ffffff;
-      }
-      </style>
+    <link rel="stylesheet" type="text/css" href="inicio.css" />
+    <title>Mi Propia Web</title>
   </head>
   <body>
   <div id="cabecera">
-    <center>
     <img src="objetos/logo.gif" alt="Logo de la página" width="15%" />
     <h1>Mi Propia Web</h1>	
     <h2>Aprendiendo a construir un sitio Web</h2>
-  </center>
   </div>
   <div id="navegacion">
-    <ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="index_1.html">index_1</a></li>
-    <li><a href="index_2.html">Index_2</a></li>
-    <li><a href="formulario.html">Formulario</a></li> 
-    </ul>
+    <div class="menu"><a href="index.html">Inicio</a></div>
+    <div class="menu"><a href="INDEX_1.html">index_1</a></div>
+    <div class="menu"><a href="index_2.html">Index_2</a></div>
+    <div class="menu"><a href="formulario.html">Formulario</a></div> 
+		<div class="vacio"></div>
  </div>
   <div id="texto">
     <p>Hola, estoy aprendiendo a hacer Webs y este es mi primer párrafo, 
