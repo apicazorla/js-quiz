@@ -27,7 +27,7 @@ let questions = [{
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/fantail.jpg",
-    choiceA: "$$H_2O$$",
+    choiceA: "citric acid",
     choiceB: "Marsh Crake/Koitareke",
     choiceC: "Fantail/Pīwakawaka",
     choiceD: "Saddleback/Tīeke",
