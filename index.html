@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Men� lateral escamoteable</title>
+<title>Men� lateral escamoteable sin JavaScript</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <style>
 body {
     font-family: "Segoe UI", sans-serif;
     font-size:100%;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background:#333;
+    color:#eee;
+    width:100%;
+}
+
+input#abrir-cerrar {
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+
+label[for="abrir-cerrar"] {
+    cursor:pointer;
+    padding: 1rem;
+    background-color:#333;
+    color:#fff;
+    display:inline-block;
+    width:100%;
+
+}
+
+.cerrar {
+    display:none;
+}
+
+#sidebar {
+    width:0;
+}
+
+#contenido {
+    margin-left:0;
+}
+
+input#abrir-cerrar:checked ~ #sidebar {
+    width:300px;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+    margin-left:300px;
+    transition: margin-left .4s;
+}
+
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+    display:inline;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+    display:none;
 }
 
 .sidebar {
@@ -79,51 +135,27 @@ h1 {
     font-size:1rem;   
 }
 
-#abrir {
-    
-}
-#cerrar {
-    display:none;
-}
+
 </style>
 
 
 </head>
 <body>
-
-<div id="sidebar" class="sidebar">
-    <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
-<ul class="menu">
-    <li><a href="#">Opci�n 1</a></li>
-    <li><a href="#">Opci�n 2</a></li>
-    <li><a href="#">Opci�n 3</a></li>
-    <li><a href="#">Opci�n 4</a></li>
-    <li><a href="#">Opci�n 5</a></li>
-</ul>
-  
-</div>
-
-<div id="contenido">
-  <p><a href="http://www.campusmvp.es" target="_blank"><img src="logo-campusmvp-150.png" alt="campusMVP" style="border-width: 0px"/></a></p>
-  <h1>Un men� lateral</h1>
-  <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">Abrir menu</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()">Cerrar menu</a>
-</div>
-
-<script>
-function mostrar() {
-    document.getElementById("sidebar").style.width = "300px";
-    document.getElementById("contenido").style.marginLeft = "300px";
-    document.getElementById("abrir").style.display = "none";
-    document.getElementById("cerrar").style.display = "inline";
-}
-
-function ocultar() {
-    document.getElementById("sidebar").style.width = "0";
-    document.getElementById("contenido").style.marginLeft = "0";
-    document.getElementById("abrir").style.display = "inline";
-    document.getElementById("cerrar").style.display = "none";
-}
-</script>
-     
+    <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+    <label for="abrir-cerrar">&#9776; <span class="abrir">Abrir</span><span class="cerrar">Cerrar</span></label>
+    <div id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="#">Opci�n 1</a></li>
+            <li><a href="#">Opci�n 2</a></li>
+            <li><a href="#">Opci�n 3</a></li>
+            <li><a href="#">Opci�n 4</a></li>
+            <li><a href="#">Opci�n 5</a></li>
+        </ul>
+    </div>
+    <div id="contenido">
+        <p><a href="http://www.campusmvp.es" target="_blank">
+            <img src="logo-campusmvp-150.png" alt="campusMVP" style="border-width: 0px" /></a></p>
+        <h1>Un men� lateral</h1>
+    </div>
 </body>
 </html> 
