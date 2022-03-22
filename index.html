@@ -166,7 +166,21 @@
         <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">Abrir menu</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()">Cerrar menu</a>   
     </div>
 
-
+    <script>
+        function mostrar() {
+            document.getElementById("sidebar").style.width = "300px";
+            document.getElementById("contenido").style.marginLeft = "300px";
+            document.getElementById("abrir").style.display = "none";
+            document.getElementById("cerrar").style.display = "inline";
+        }
+        
+        function ocultar() {
+            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("contenido").style.marginLeft = "0";
+            document.getElementById("abrir").style.display = "inline";
+            document.getElementById("cerrar").style.display = "none";
+        }
+        </script>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
