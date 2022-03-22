@@ -1,58 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Menu Lateral Responsive - Dispositivos Moviles</title>
-	<link rel="stylesheet" href="style/estilos.css">
-	<link rel="stylesheet" href="style/fonts.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Native Birds Quiz</title>
 </head>
+
+<div id="navegacion">
+    <div class="menu"><a href="index.html">Inicio</a></div>
+    <div class="menu"><a href="index_1.html">index_1</a></div>
+    <div class="menu"><a href="index_2.html">index_2</a></div>
+    <div class="menu"><a href="formulario.html">Formulario</a></div> 
+		<div class="vacio"></div>
+ </div>
+
 <body>
-	
-	<header>
-		<div class="menu_bar">
-			<a class="bt-menu" href="#"><span class="icon-list2"></span>Menu</a>
-		</div>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Menu</a></li>
-				<li><a href="index_1.html">Index_1</a></li>
-				<li><a href="index_2.html">Index_2</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<section>
-		<h3>Haz la pantalla mas pequeña para que puedas ver el menu en la version de dispositivo movil.</h3>
-        <br><br>
-		<h2>Puedes presionar Ctrl + Shift + M en Mozilla firefox para cambiar el tamaño de la pantalla</h2>
-<br><br>      
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br><br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br><br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-	</section>
-	
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/menu.js"></script>
+    <h1>Native Birds</h1>
+    <div class="container">
+        <div id="start"><button class="start-btn" onClick= "beginQuiz()">Begin the Quiz!</button>
+        <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br>
+        Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p></div>
+        <div id="quiz" style="display: none">
+            <h2 id="quizQuestion"></h2>
+            <div class = "img-div" id="quizImg"></div>
+            <div id="choices">
+                <button id="choiceA" onclick="check('A')"></button>
+                <button id="choiceB" onclick="check('B')"></button>
+                <button id="choiceC" onclick="check('C')"></button>
+                <button id="choiceD" onclick="check('D')"></button>
+            </div>
+            <div id="choiceResponse" style="display: none"></div>
+        </div>
+        <div id="scoreBlock" style="display: none"></div>
+        <div id="scoreMessage" style="display: none"></div>
+        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/quizgame.js"></script>
 </body>
+
 </html>
