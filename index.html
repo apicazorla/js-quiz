@@ -1,190 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Native Birds Quiz</title>
-    <style>
-        body {
-            font-family: "Segoe UI", sans-serif;
-            font-size:100%;
-            margin:0;
-            padding:0;
-        }
-        
-        header {
-            background:#333;
-            color:#eee;
-            width:100%;
-        }
-        
-        input#abrir-cerrar {
-            visibility:hidden;
-            position: absolute;
-            top: -9999px;
-        }
-        
-        
-        label[for="abrir-cerrar"] {
-            cursor:pointer;
-            padding: 1rem;
-            background-color:#333;
-            color:#fff;
-            display:inline-block;
-            width:100%;
-        
-        }
-        
-        .cerrar {
-            display:none;
-        }
-        
-        #sidebar {
-            width:0;
-        }
-        
-        #contenido {
-            margin-left:0;
-        }
-        
-        input#abrir-cerrar:checked ~ #sidebar {
-            width:300px;
-        }
-        
-        input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
-            margin-left:300px;
-            transition: margin-left .4s;
-        }
-        
-        
-        input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
-            display:inline;
-        }
-        
-        input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
-            display:none;
-        }
-        
-        .sidebar {
-            position: fixed;
-            height: 100%;
-            width: 0;
-            top: 0;
-            left: 0;
-            z-index: 1;
-            background-color: #00324b;
-            overflow-x: hidden;
-            transition: 0.4s;
-            padding: 1rem 0;
-            box-sizing:border-box;
-        }
-        
-        .sidebar .boton-cerrar {
-            position: absolute;
-            top: 0.5rem;
-            right: 1rem;
-            font-size: 2rem;
-            display: block;
-            padding: 0;
-            line-height: 1.5rem;
-            margin: 0;
-            height: 32px;
-            width: 32px;
-            text-align: center;
-            vertical-align: top;
-        }
-        
-        .sidebar ul, .sidebar li{
-            margin:0;
-            padding:0;
-            list-style:none inside;
-        }
-        
-        .sidebar ul {
-            margin: 4rem auto;
-            display: block;
-            width: 80%;
-            min-width:200px;
-        }
-        
-        .sidebar a {
-            display: block;
-            font-size: 120%;
-            color: #eee;
-            text-decoration: none;
-            
-        }
-        
-        .sidebar a:hover{
-            color:#fff;
-            background-color: #f90;
-        
-        }
-        
-        h1 {
-            color:#f90;
-            font-size:180%;
-            font-weight:normal;
-        }
-        #contenido {
-            transition: margin-left .4s;
-            padding: 1rem;
-        }
-        
-        .abrir-cerrar {
-            color: #2E88C7;
-            font-size:1rem;   
-        }
-        
-        
-        </style>
+    <title>Men� lateral escamoteable</title>
+<style>
+body {
+    font-family: "Segoe UI", sans-serif;
+    font-size:100%;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #00324b;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:#fff;
+    background-color: #f90;
+
+}
+
+h1 {
+    color:#f90;
+    font-size:180%;
+    font-weight:normal;
+}
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+
+#abrir {
+    
+}
+#cerrar {
+    display:none;
+}
+</style>
 
 
 </head>
 <body>
 
-    <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
-    <label for="abrir-cerrar">&#9776; <span class="abrir">To open</span><span class="cerrar">To closed</span></label>
-    <div id="sidebar" class="sidebar">
+<div id="sidebar" class="sidebar">
+    <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
+<ul class="menu">
+    <li><a href="#">Opci�n 1</a></li>
+    <li><a href="#">Opci�n 2</a></li>
+    <li><a href="#">Opci�n 3</a></li>
+    <li><a href="#">Opci�n 4</a></li>
+    <li><a href="#">Opci�n 5</a></li>
+</ul>
+  
+</div>
 
-    <div id="navegacion">
-    <div class="menu"><a href="index.html">Inicio</a></div>
-    <div class="menu"><a href="index_1.html">index_1</a></div>
-    <div class="menu"><a href="index_2.html">index_2</a></div>
-    <div class="menu"><a href="formulario.html">Formulario</a></div> 
-		<div class="vacio"></div>
- </div>
+<div id="contenido">
+  <p><a href="http://www.campusmvp.es" target="_blank"><img src="logo-campusmvp-150.png" alt="campusMVP" style="border-width: 0px"/></a></p>
+  <h1>Un men� lateral</h1>
+  <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">Abrir menu</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()">Cerrar menu</a>
+</div>
 
+<script>
+function mostrar() {
+    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("contenido").style.marginLeft = "300px";
+    document.getElementById("abrir").style.display = "none";
+    document.getElementById("cerrar").style.display = "inline";
+}
 
-   
-    <div id="contenido">
-        <p><a href="http://www.campusmvp.es" target="_blank">
-            <img src="logo-campusmvp-150.png" alt="campusMVP" style="border-width: 0px" /></a></p>
-        <h1>Chemistry</h1>
-        <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">Abrir menu</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()">Cerrar menu</a>   
-    </div>
-
-    <script>
-        function mostrar() {
-            document.getElementById("sidebar").style.width = "300px";
-            document.getElementById("contenido").style.marginLeft = "300px";
-            document.getElementById("abrir").style.display = "none";
-            document.getElementById("cerrar").style.display = "inline";
-        }
-        
-        function ocultar() {
-            document.getElementById("sidebar").style.width = "0";
-            document.getElementById("contenido").style.marginLeft = "0";
-            document.getElementById("abrir").style.display = "inline";
-            document.getElementById("cerrar").style.display = "none";
-        }
-        </script>
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
+function ocultar() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("contenido").style.marginLeft = "0";
+    document.getElementById("abrir").style.display = "inline";
+    document.getElementById("cerrar").style.display = "none";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> 
 </body>
-
-</html>
+</html> 
