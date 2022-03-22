@@ -17,28 +17,31 @@
  </div>
 
 <body>
-    <h1>Native Birds</h1>
-    <div class="container">
-        <div id="start"><button class="start-btn" onClick= "beginQuiz()">Begin the Quiz!</button>
-        <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br>
-        Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p></div>
-        <div id="quiz" style="display: none">
-            <h2 id="quizQuestion"></h2>
-            <div class = "img-div" id="quizImg"></div>
-            <div id="choices">
-                <button id="choiceA" onclick="check('A')"></button>
-                <button id="choiceB" onclick="check('B')"></button>
-                <button id="choiceC" onclick="check('C')"></button>
-                <button id="choiceD" onclick="check('D')"></button>
-            </div>
-            <div id="choiceResponse" style="display: none"></div>
-        </div>
-        <div id="scoreBlock" style="display: none"></div>
-        <div id="scoreMessage" style="display: none"></div>
-        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+    <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+    <label for="abrir-cerrar">&#9776; <span class="abrir">Abrir</span><span class="cerrar">Cerrar</span></label>
+    <div id="sidebar" class="sidebar">
+        <ul class="navegación">
+            <li><a href="index_1.html">ELEMENTOS</a></li>
+            <ul>
+                <li> <a href= "index_2.html"> Enlace1</a></li>
+                <li> <a href= "index_3.html"> Enlace2</a></li>
+                <li> <a href= "index_2.html"> Enlace3</a></li>
+                <li> <a href= "index_3.html"> Enlace4</a></li>
+                <li> <a href= "index_2.html"> Enlace5</a></li>
+                <li> <a href= "index_3.html"> Enlace6</a></li>
+            </ul>
+            <li><a href="index_2.html">Hidruros</a></li>
+            <li><a href="#">Opción 3</a></li>
+            <li><a href="#">Opción 4</a></li>
+            <li><a href="#">Opción 5</a></li>
+        </ul>
+    </div>
+    <div id="contenido">
+        <p><a href="http://www.campusmvp.es" target="_blank">
+            <img src="logo-campusmvp-150.png" alt="campusMVP" style="border-width: 0px" /></a></p>
+        <h1>Un menú lateral</h1>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="js/quizgame.js"></script>
 </body>
 
 </html>
