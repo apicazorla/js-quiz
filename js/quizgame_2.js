@@ -19,7 +19,7 @@ var score = 0;
 let questions = [{
     question: "Pregunta 2",
     imgSrc: "assets/birds/bellbird.jpg",
-    choiceA: "ácido fórmico",
+    choiceA: "2-hydroxybut-3-enoic acid",
     choiceB: "Bellbird/Korimako",
     choiceC: "Rock Wren/Tuke",
     choiceD: "Fernbird/Mātātā",
