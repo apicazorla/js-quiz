@@ -17,7 +17,7 @@ var score = 0;
 //questions function so our getQuestion function later can get the right value from array
 
 let questions = [{
-    question: "Pregunta 2",
+    question: "What is the name of this compound?",
     imgSrc: "assets/birds/01a.png",
     choiceA: "2-hydroxybut-3-enoic acid",
     choiceB: "Bellbird/Korimako",
