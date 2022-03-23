@@ -19,10 +19,10 @@ var score = 0;
 let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01a.png",
-    choiceA: "2-hydroxybut-3-enoic acid",
-    choiceB: "Bellbird/Korimako",
-    choiceC: "Rock Wren/Tuke",
-    choiceD: "Fernbird/Mātātā",
+    choiceA: "pentane",
+    choiceB: "heptane",
+    choiceC: "Rhexane",
+    choiceD: "1,5-dimethylpenttane",
     correctAnswer: "B"
 }, {
     question: "Which bird is this?",
