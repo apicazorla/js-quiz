@@ -21,8 +21,8 @@ let questions = [{
     imgSrc: "assets/birds/01a.png",
     choiceA: "pentane",
     choiceB: "heptane",
-    choiceC: "Rhexane",
-    choiceD: "1,5-dimethylpenttane",
+    choiceC: "hexane",
+    choiceD: "1,5-dimethylpentane",
     correctAnswer: "B"
 }, {
     question: "Which bird is this?",
