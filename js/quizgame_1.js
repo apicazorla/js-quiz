@@ -25,72 +25,72 @@ let questions = [{
     choiceD: "1,5-dimethylpentane",
     correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/fantail.jpg",
-    choiceA: "acetic acid",
-    choiceB: "Marsh Crake/Koitareke",
-    choiceC: "Fantail/Pīwakawaka",
-    choiceD: "Saddleback/Tīeke",
-    correctAnswer: "C"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/morepork.jpg",
-    choiceA: "Morepork/Ruru",
-    choiceB: "Takahē",
-    choiceC: "Wax-eye",
-    choiceD: "New Zealand Parakeet/Kākāriki",
-    correctAnswer: "A"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/tui.jpg",
-    choiceA: "Tūī",
-    choiceB: "Whitehead/Pōpokotea",
-    choiceC: "Wrybill/Ngutu pare",
-    choiceD: "Weka",
-    correctAnswer: "A"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/dotterel.jpg",
-    choiceA: "Westland Petrel/Tāiko",
-    choiceB: "Variable Oystercatcher/Tōrea",
-    choiceC: "Subantarctic Teal",
-    choiceD: "New Zealand Dotterel/Tūturiwhatu",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01b.jpg",
+    choiceA: "isopropane",
+    choiceB: "methylpropane",
+    choiceC: "isobutane",
+    choiceD: "2-methylpropane",
     correctAnswer: "D"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kakapo.jpg",
-    choiceA: "Kākā",
-    choiceB: "Kea",
-    choiceC: "Kākāpō",
-    choiceD: "Kōkako",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01c.jpg",
+    choiceA: "2,2-dimethylpropane",
+    choiceB: "tetramethylmethane",
+    choiceC: "neopentane",
+    choiceD: "dimethylpropane",
+    correctAnswer: "A"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01d.jpg",
+    choiceA: "isopentane",
+    choiceB: "methylbutane",
+    choiceC: "2.methylbutane",
+    choiceD: "2-methylpenbtane",
     correctAnswer: "C"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kotuku.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01e.jpg",
+    choiceA: "2-methyl-4-ethylpentane",
+    choiceB: "2-ethyl-4-methylpentane",
+    choiceC: "2,4-dimethylhexane",
+    choiceD: "3,5-dimethylhexane",
+    correctAnswer: "D"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01f.jpg",
+    choiceA: "3-ethyl-5-methylheptane",
+    choiceB: "5-ethyl-3-methylheptane",
+    choiceC: "5-ethyl-3-methylhexane",
+    choiceD: "3-ethyl-methylhexane",
+    correctAnswer: "B"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01g.jpg",
     choiceA: "New Zealand Fairy Tern/Tara iti",
     choiceB: "White Heron/Kōtuku",
     choiceC: "Shore Plover/Tūturuatu",
     choiceD: "Spotted Shag/Parekareka",
-    correctAnswer: "B"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kea.jpg",
-    choiceA: "New Zealand Robin/Toutouwai",
-    choiceB: "Paradise Duck / Pūtakitaki",
-    choiceC: "Pūkeko",
-    choiceD: "Kea",
     correctAnswer: "D"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kaka.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01h.jpg",
+    choiceA: "trimethylbutane",
+    choiceB: "3,3,2-trimethybutane",
+    choiceC: "3,3,2-methylbutane",
+    choiceD: "2,2,3-trimethylbutane",
+    correctAnswer: "D"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01i.jpg",
     choiceA: "Kākā",
     choiceB: "Tomtit/Miromiro",
     choiceC: "Yellowhead/Mohua",
     choiceD: "Fiordland Crested Penguin/Tawaki",
     correctAnswer: "A"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kereru.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01j.jpg",
     choiceA: "Kiwi",
     choiceB: "New Zealand Pigeon/Kererū",
     choiceC: "Kingfisher/Kōtare",
