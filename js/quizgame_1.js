@@ -55,7 +55,7 @@ let questions = [{
     choiceB: "2-ethyl-4-methylpentane",
     choiceC: "2,4-dimethylhexane",
     choiceD: "3,5-dimethylhexane",
-    correctAnswer: "D"
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01f.jpg",
