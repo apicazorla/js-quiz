@@ -45,8 +45,8 @@ let questions = [{
     imgSrc: "assets/birds/01d.jpg",
     choiceA: "isopentane",
     choiceB: "methylbutane",
-    choiceC: "2.methylbutane",
-    choiceD: "2-methylpenbtane",
+    choiceC: "2-methylbutane",
+    choiceD: "2-methylpentane",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -63,39 +63,39 @@ let questions = [{
     choiceB: "5-ethyl-3-methylheptane",
     choiceC: "5-ethyl-3-methylhexane",
     choiceD: "3-ethyl-methylhexane",
-    correctAnswer: "B"
+    correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01g.jpg",
-    choiceA: "New Zealand Fairy Tern/Tara iti",
-    choiceB: "White Heron/Kōtuku",
-    choiceC: "Shore Plover/Tūturuatu",
-    choiceD: "Spotted Shag/Parekareka",
+    choiceA: "trimethylbutane",
+    choiceB: "3,3,2-trimethylbutane",
+    choiceC: "3,3,2-trimethylbutane",
+    choiceD: "2,2,3,-trimethylbutane",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01h.jpg",
-    choiceA: "trimethylbutane",
-    choiceB: "3,3,2-trimethybutane",
-    choiceC: "3,3,2-methylbutane",
-    choiceD: "2,2,3-trimethylbutane",
-    correctAnswer: "D"
+    choiceA: "4-(tert-buthyl)heptane",
+    choiceB: "4-(1,1-dimethylethyl)heptane",
+    choiceC: "4-(2-methylpropan-2-yl)heptane",
+    choiceD: "4-(2-methylpropanyl)heptane",
+    correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01i.jpg",
-    choiceA: "Kākā",
-    choiceB: "Tomtit/Miromiro",
-    choiceC: "Yellowhead/Mohua",
-    choiceD: "Fiordland Crested Penguin/Tawaki",
+    choiceA: "5-ethyl-3-methyl-4-propyloctane",
+    choiceB: "3-methyl-4,5-dipropylheptane",
+    choiceC: "4-(butan-2-yl)-5-ethyloctane",
+    choiceD: "4-(sec-buthyl)-5-ethyloctane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01j.jpg",
-    choiceA: "Kiwi",
-    choiceB: "New Zealand Pigeon/Kererū",
-    choiceC: "Kingfisher/Kōtare",
-    choiceD: "Eastern Bar-Tailed Godwit/Kuaka",
-    correctAnswer: "B"
+    choiceA: "4-isopropyl-3-methylheptane",
+    choiceB: "4(1-methylethyl)-3-methylheptane",
+    choiceC: "3-methyl-4-(propan-2-yl)heptane",
+    choiceD: "3-methyl-4-(1-methylethyl)heptane",
+    correctAnswer: "C"
 }, ];
 
 
