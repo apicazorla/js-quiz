@@ -140,7 +140,7 @@ function showScore() {
         scoreMessage.innerHTML = "<p>Pretty good! But still room for improvement.</p>"
     }
     else {
-        scoreMessage.innerHTML = "<p>Great work! You really know your birds!</p>"
+        scoreMessage.innerHTML = "<p>Great work! You really know the nomenclature!</p>"
     }
     scoreMessage.style.display = "block";
     quizAgain.style.display = "block";
