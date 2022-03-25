@@ -15,7 +15,7 @@ header nav {
 	width:90%;
 	margin:20px auto;
 	max-width:1000px;
-	background:#024959;
+	background:#FFA726;
 }
 
 .menu_bar {
@@ -43,7 +43,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover {
-	background:#037E8C;
+	background:#FFCA28;
 }
 
 section {	
