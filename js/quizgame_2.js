@@ -75,11 +75,11 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02h.jpg",
-    choiceA: "New Zealand Robin/Toutouwai",
-    choiceB: "Paradise Duck / Pūtakitaki",
-    choiceC: "Pūkeko",
-    choiceD: "Kea",
-    correctAnswer: "D"
+    choiceA: "4-methyl-2-pentyne",
+    choiceB: "4-methylpent-2-yne",
+    choiceC: "2-methylpent-3-yne",
+    choiceD: "methylpentyne",
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02i.jpg",
@@ -91,11 +91,11 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02j.jpg",
-    choiceA: "Kiwi",
-    choiceB: "New Zealand Pigeon/Kererū",
-    choiceC: "Kingfisher/Kōtare",
-    choiceD: "Eastern Bar-Tailed Godwit/Kuaka",
-    correctAnswer: "B"
+    choiceA: "3-ethyl-2-methylhex-2-en-4-yne",
+    choiceB: "4-ethyl-5-methyl-2-hexen-4-yne",
+    choiceC: "2-methyl-3-ethylhex-2-en-4-yne",
+    choiceD: "4-ethyl-5-methylhex-4-en-2-yne",
+    correctAnswer: "A"
 }, ];
 
 
