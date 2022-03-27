@@ -43,10 +43,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02d.jpg",
-    choiceA: "2-ethylhex-3-yne",
-    choiceB: "5-methylhept-3-yne",
-    choiceC: "3-methylhept-4-yne",
-    choiceD: "3-methyl-4-heptyne",
+    choiceA: "2-propylhex-3-yne",
+    choiceB: "5-methyloct-3-yne",
+    choiceC: "4-methyloct-5-yne",
+    choiceD: "5-propylhex-3-yne",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -67,11 +67,11 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02g.jpg",
-    choiceA: "New Zealand Fairy Tern/Tara iti",
-    choiceB: "White Heron/Kōtuku",
-    choiceC: "Shore Plover/Tūturuatu",
-    choiceD: "Spotted Shag/Parekareka",
-    correctAnswer: "B"
+    choiceA: "1,4,7-nonatriene",
+    choiceB: "2,5,8-nonatriene",
+    choiceC: "nona-2,5,8-triene",
+    choiceD: "nona-1,4,7-triene",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02h.jpg",
@@ -83,11 +83,11 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02i.jpg",
-    choiceA: "Kākā",
-    choiceB: "Tomtit/Miromiro",
-    choiceC: "Yellowhead/Mohua",
-    choiceD: "Fiordland Crested Penguin/Tawaki",
-    correctAnswer: "A"
+    choiceA: "3-methylpent-2-en-4-yne",
+    choiceB: "3-methyl-2-penten-4-yne",
+    choiceC: "3-methyl-3-penten-1-yne",
+    choiceD: "3-methylpent-3-en-1-yne",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/02j.jpg",
