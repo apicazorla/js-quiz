@@ -17,80 +17,80 @@ var score = 0;
 //questions function so our getQuestion function later can get the right value from array
 
 let questions = [{
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/bellbird.jpg",
-    choiceA: "formic acid",
-    choiceB: "Bellbird/Korimako",
-    choiceC: "Rock Wren/Tuke",
-    choiceD: "Fernbird/Mātātā",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02a.jpg",
+    choiceA: "ethylene",
+    choiceB: "acetylene",
+    choiceC: "ethene",
+    choiceD: "eth-1-ene",
+    correctAnswer: "C"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02b.jpg",
+    choiceA: "methylprop-1-ene",
+    choiceB: "2-methylprop-1-ene",
+    choiceC: "methylpropene",
+    choiceD: "2-methylpropene",
     correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/fantail.jpg",
-    choiceA: "citric acid",
-    choiceB: "Marsh Crake/Koitareke",
-    choiceC: "Fantail/Pīwakawaka",
-    choiceD: "Saddleback/Tīeke",
-    correctAnswer: "C"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/morepork.jpg",
-    choiceA: "Morepork/Ruru",
-    choiceB: "Takahē",
-    choiceC: "Wax-eye",
-    choiceD: "New Zealand Parakeet/Kākāriki",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02c.jpg",
+    choiceA: "2,4-dimethylpent-2-ene",
+    choiceB: "2,4-methylpent-2-enee",
+    choiceC: "dimethylpent-2-ene",
+    choiceD: "2,4-dimethylpentene",
     correctAnswer: "A"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/tui.jpg",
-    choiceA: "Tūī",
-    choiceB: "Whitehead/Pōpokotea",
-    choiceC: "Wrybill/Ngutu pare",
-    choiceD: "Weka",
-    correctAnswer: "A"
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02d.jpg",
+    choiceA: "2-ethylhex-3-yne",
+    choiceB: "5-methylhept-3-yne",
+    choiceC: "3-methylhept-4-yne",
+    choiceD: "3-methyl-4-heptyne",
+    correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/dotterel.jpg",
-    choiceA: "Westland Petrel/Tāiko",
-    choiceB: "Variable Oystercatcher/Tōrea",
-    choiceC: "Subantarctic Teal",
-    choiceD: "New Zealand Dotterel/Tūturiwhatu",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02e.jpg",
+    choiceA: "2-ethyl-4-methylpent-1-ene",
+    choiceB: "4-methylene-2-methylhexane",
+    choiceC: "4-methyl-2-ethylpent-1-ene",
+    choiceD: "2-methyl-4-methylenehexane",
     correctAnswer: "D"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kakapo.jpg",
-    choiceA: "Kākā",
-    choiceB: "Kea",
-    choiceC: "Kākāpō",
-    choiceD: "Kōkako",
-    correctAnswer: "C"
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02f.jpg",
+    choiceA: "methylacethylene",
+    choiceB: "propyne",
+    choiceC: "prop-1-yne",
+    choiceD: "1-propyne",
+    correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kotuku.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02g.jpg",
     choiceA: "New Zealand Fairy Tern/Tara iti",
     choiceB: "White Heron/Kōtuku",
     choiceC: "Shore Plover/Tūturuatu",
     choiceD: "Spotted Shag/Parekareka",
     correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kea.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02h.jpg",
     choiceA: "New Zealand Robin/Toutouwai",
     choiceB: "Paradise Duck / Pūtakitaki",
     choiceC: "Pūkeko",
     choiceD: "Kea",
     correctAnswer: "D"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kaka.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02i.jpg",
     choiceA: "Kākā",
     choiceB: "Tomtit/Miromiro",
     choiceC: "Yellowhead/Mohua",
     choiceD: "Fiordland Crested Penguin/Tawaki",
     correctAnswer: "A"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kereru.jpg",
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/02j.jpg",
     choiceA: "Kiwi",
     choiceB: "New Zealand Pigeon/Kererū",
     choiceC: "Kingfisher/Kōtare",
