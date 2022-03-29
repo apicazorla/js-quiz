@@ -43,43 +43,43 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03d.jpg",
-    choiceA: "6-ethyl-5-methyl-3-nonyne",
-    choiceB: "6-ethyl-5-methylnon-3-yne",
-    choiceC: "6-ethyl-5-methylnon-4-yne",
-    choiceD: "5-methyl-6-ethylnon-3-yne",
+    choiceA: "3-methylcyclohex-1-ene",
+    choiceB: "4-methylcyclohex-1-ene",
+    choiceC: "4-methylcyclohexene",
+    choiceD: "3-methylcyclohexene",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03e.jpg",
-    choiceA: "2-ethyl-4-methylpent-1-ene",
-    choiceB: "4-methylene-2-methylhexane",
-    choiceC: "4-methyl-2-ethylpent-1-ene",
-    choiceD: "2-methyl-4-methylenehexane",
-    correctAnswer: "D"
+    choiceA: "1-methyl-7-ethylcyclohepta-2,4-diene",
+    choiceB: "5-ethyl-6-methylcyclohepta-1,3-diene",
+    choiceC: "4-ethyl-5-methylcyclohepta-1,3-diene",
+    choiceD: "1-ethyl-7-methylcyclohepta-2,4-diene",
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03f.jpg",
-    choiceA: "methylacethylene",
-    choiceB: "propyne",
-    choiceC: "prop-1-yne",
-    choiceD: "1-propyne",
-    correctAnswer: "B"
+    choiceA: "cyclopentyne",
+    choiceB: "1-cyclopentyne",
+    choiceC: "cyclopent-1-yne",
+    choiceD: "cyclohex-1-yne",
+    correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03g.jpg",
-    choiceA: "1,4,7-nonatriene",
-    choiceB: "2,5,8-nonatriene",
-    choiceC: "nona-2,5,8-triene",
-    choiceD: "nona-1,4,7-triene",
-    correctAnswer: "D"
+    choiceA: "1,2-dimethyl-4-ethylcyclohexane",
+    choiceB: "4-ethyl-1,2-dimethylcyclohexane",
+    choiceC: "5-ethyl-1,2-dimethylcyclohexane",
+    choiceD: "1-ethyl-3,4-dimethylcyclohexane",
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03h.jpg",
-    choiceA: "2-methylocta-2,4-diyne",
-    choiceB: "6-methylocta-2,4-diyne",
-    choiceC: "2-methyloct-4,6-adiyne",
-    choiceD: "6-methyloct-2,4-adiyne",
-    correctAnswer: "B"
+    choiceA: "3-methyl-6-ethylocta-4-en-1-yne",
+    choiceB: "3-methyl-8-ethylocta-1-en-4-yne",
+    choiceC: "8-ethyl-3-methylocta-1-en-4-yne",
+    choiceD: "6-ethyl-3-methylocta-4-en-1-yne",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03i.jpg",
@@ -87,15 +87,15 @@ let questions = [{
     choiceB: "3-ethyl-4-methyl-3-hexen-5-yne",
     choiceC: "3-methyl-4-ethylhex-3-en-1-yne",
     choiceD: "4-ethyl-3-methylhex-3-en-1-yne",
-    correctAnswer: "D"
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03j.jpg",
-    choiceA: "3-ethyl-2-methylhex-2-en-4-yne",
-    choiceB: "4-ethyl-5-methyl-2-hexen-4-yne",
-    choiceC: "2-methyl-3-ethylhex-2-en-4-yne",
-    choiceD: "4-ethyl-5-methylhex-4-en-2-yne",
-    correctAnswer: "A"
+    choiceA: "1-ethyl-2-ethylidencyclohexane",
+    choiceB: "1-ethyl-2-vinylcyclohexane",
+    choiceC: "2-ethyl-1-ethenylcyclohexane",
+    choiceD: "1-ethenyl-2-ethylcyclohexane",
+    correctAnswer: "D"
 }, ];
 
 
