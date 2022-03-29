@@ -59,10 +59,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03f.jpg",
-    choiceA: "cyclopentyne",
-    choiceB: "1-cyclopentyne",
-    choiceC: "cyclopent-1-yne",
-    choiceD: "cyclohex-1-yne",
+    choiceA: "4-ethyl-3-methylcyclopentyne",
+    choiceB: "4-ethyl-5-methylcyclopentyne",
+    choiceC: "3-ethyl-2-methylcyclopentyne",
+    choiceD: "3-ethyl-4-methylcyclopentyne",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -83,10 +83,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03i.jpg",
-    choiceA: "3-ethyl-4-methylhex-3-en-1-yne",
-    choiceB: "3-ethyl-4-methyl-3-hexen-5-yne",
-    choiceC: "3-methyl-4-ethylhex-3-en-1-yne",
-    choiceD: "4-ethyl-3-methylhex-3-en-1-yne",
+    choiceA: "phenylcyclohexane",
+    choiceB: "dicyclohexylmethane",
+    choiceC: "bis(ciclohexane)",
+    choiceD: "diphenylmethane",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
