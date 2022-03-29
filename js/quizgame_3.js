@@ -59,10 +59,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03f.jpg",
-    choiceA: "4-ethyl-3-methylcyclopentyne",
+    choiceA: "4-ethyl-3-methylcyclopent-1-yne",
     choiceB: "4-ethyl-5-methylcyclopentyne",
-    choiceC: "3-ethyl-2-methylcyclopentyne",
-    choiceD: "3-ethyl-4-methylcyclopentyne",
+    choiceC: "4-ethyl-3-methylcyclopentyne",
+    choiceD: "3-ethyl-4-methylcyclopent-1-yne",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
