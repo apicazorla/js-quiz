@@ -67,10 +67,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/04g.jpg",
-    choiceA: "1,2-biphenyl",
-    choiceB: "fenantrene",
-    choiceC: "naphthalene",
-    choiceD: "antrhacene",
+    choiceA: "1-methylanthracene",
+    choiceB: "1-methylnaphthalene",
+    choiceC: "2-methylnaphthalene",
+    choiceD: "methylnaphthalene",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
