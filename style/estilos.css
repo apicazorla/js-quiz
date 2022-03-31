@@ -15,7 +15,7 @@ header nav {
 	width:90%;
 	margin:20px auto;
 	max-width:1000px;
-	background:#FFA726;
+	background:#024959;
 }
 
 .menu_bar {
@@ -43,7 +43,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover {
-	background:#FFCA28;
+	background:#037E8C;
 }
 
 section {	
@@ -78,7 +78,7 @@ section {
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
-		background:#FFCA28;
+		background:#024959;
 		overflow: hidden;
 		font-size:25px;
 		font-weight:bold;
