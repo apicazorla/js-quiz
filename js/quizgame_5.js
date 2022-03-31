@@ -27,10 +27,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05b.jpg",
-    choiceA: "bromotrifluoromethane",
-    choiceB: "bromotri(fluoro)methane",
-    choiceC: "bromo(trifluoro)methane",
-    choiceD: "(bromo)trifluoromethane",
+    choiceA: "bromodifluoromethane",
+    choiceB: "bromodi(fluoro)methane",
+    choiceC: "bromo(difluoro)methane",
+    choiceD: "(bromo)difluoromethane",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -47,7 +47,7 @@ let questions = [{
     choiceB: "1,1-dichloro-2,2,2-trifluoroethane",
     choiceC: "2,2-dichloro-1,1,1-trifluoroethane",
     choiceD: "2,2,2-trifluoro-1,1-dichloroethane",
-    correctAnswer: "A"
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05e.jpg",
@@ -60,10 +60,10 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05f.jpg",
     choiceA: "3-bromocyclohexene",
-    choiceB: "4-bromocyclohe-1-ene",
+    choiceB: "4-bromocyclohex-1-ene",
     choiceC: "4-bromocyclohexene",
     choiceD: "3-bromocyclohex-1-ene",
-    correctAnswer: "A"
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05g.jpg",
@@ -71,13 +71,13 @@ let questions = [{
     choiceB: "m-dichlorobenzene",
     choiceC: "para-dichlorobenzene",
     choiceD: "1,4-dichlorobenzene",
-    correctAnswer: "C"
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05h.jpg",
-    choiceA: "(chloromethyl)benzene)",
+    choiceA: "(chloromethyl)benzene",
     choiceB: "benzyl chloride",
-    choiceC: "chloro(Phenyl)methane",
+    choiceC: "chloro(phenyl)methane",
     choiceD: "chloromethylbenzene",
     correctAnswer: "A"
 }, {
