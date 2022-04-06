@@ -59,10 +59,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/06f.jpg",
-    choiceA: "3,8-dinitronon-3-en-6-yne",
-    choiceB: "2,7-dinitronon-6-en-3-yne",
-    choiceC: "2,7-dinitrononen-3-yne",
-    choiceD: "2,7-dinitrooct-6-en-3-yne",
+    choiceA: "4-methyl-3,8-dinitronon-3-en-6-yne",
+    choiceB: "6-methyl-2,7-dinitronon-6-en-3-yne",
+    choiceC: "6-methyl-2,7-dinitrononen-3-yne",
+    choiceD: "6-methyl-2,7-dinitrooct-6-en-3-yne",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
