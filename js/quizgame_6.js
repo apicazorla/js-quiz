@@ -43,25 +43,25 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/06d.jpg",
-    choiceA: "1,1,2,2-teranitrohethene",
+    choiceA: "1,1,2,2-teranitroethene",
     choiceB: "tetranitroethene",
     choiceC: "1,1,2,2-tetranitroeth-1-ene",
-    choiceD: "tetranitroethilene",
+    choiceD: "tetranitroethylene",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/06e.jpg",
     choiceA: "2-nitropent-3-yne",
-    choiceB: "4-nitro-2-pentiyne",
+    choiceB: "4-nitro-2-pentyne",
     choiceC: "4-nitro-2-pentyne",
     choiceD: "4-nitropent-2-yne",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/06f.jpg",
-    choiceA: "3,8-dinitronon-3-3n-6-yne",
+    choiceA: "3,8-dinitronon-3-en-6-yne",
     choiceB: "2,7-dinitronon-6-en-3-yne",
-    choiceC: "2,7-dinitrononen.3-yne",
+    choiceC: "2,7-dinitrononen-3-yne",
     choiceD: "2,7-dinitrooct-6-en-3-yne",
     correctAnswer: "A"
 }, {
