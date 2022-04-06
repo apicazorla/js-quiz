@@ -45,8 +45,7 @@ let questions = [{
     imgSrc: "assets/birds/06d.jpg",
     choiceA: "1,1,2,2-tetranitroethene",
     choiceB: "tetranitroethene",
-    choiceC: "1,1,2,2-tetranitroethylene
-    ",
+    choiceC: "1,1,2,2-tetranitroethylene",
     choiceD: "tetranitroethylene",
     correctAnswer: "B"
 }, {
