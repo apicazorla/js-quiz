@@ -7,7 +7,7 @@ var i= 0;
 
 //typewriter efect 
 function typeWriter() {
-    if(i > str.length){
+    if(i < str.length){
         text.innerHTML += str.charAt(i);
         i++;
         setTimeout/typeWriter,speed);
