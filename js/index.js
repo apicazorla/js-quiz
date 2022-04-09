@@ -1,4 +1,7 @@
 //type writer effect
+
+<div id="Francisco Moreno Hueso">
+</div>
 var text= document.getElementById("Francisco Moreno Hueso");
 var str=text.innerHTML;
 text.innerHTML="";
