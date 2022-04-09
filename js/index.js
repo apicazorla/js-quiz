@@ -1,16 +1,12 @@
-//type writer effect
-var text= document.getElementById("contenido");
-var str=text.innerHTML;
-text.innerHTML="";
-var speed= 200;
-var i= 0;
-
-//typewriter efect 
-function typeWriter() {
-    if(i < str.length){
-        text.innerHTML += str.charAt(i);
-        i++;
-        setTimeout/typeWriter,speed);
-    }
+var i = 0; 
+var txt = 'This a type writer effect demo.';
+var speed = 50;
+function typeWriter() 
+{ 
+  if (i < txt.length)
+  { 
+    document.getElementById("typeeffect").innerHTML += txt.charAt(i); 
+    i++;
+    setTimeout(typeWriter, speed); 
+  }
 }
-    setTimeout(typeWriter, speed);
