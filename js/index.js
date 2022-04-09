@@ -1,8 +1,5 @@
 //type writer effect
-
-<div id="Francisco Moreno Hueso">
-</div>
-var text= document.getElementById("Francisco Moreno Hueso");
+var text= document.getElementById("contenido");
 var str=text.innerHTML;
 text.innerHTML="";
 var speed= 200;
