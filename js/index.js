@@ -1,5 +1,5 @@
 var i = 0; 
-var txt = 'This a type writer effect demo.';
+var txt = 'share the web www.nomenclaturaquimica.com';
 var speed = 50;
 function typeWriter() 
 { 
