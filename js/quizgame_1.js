@@ -75,7 +75,7 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01h.jpg",
-    choiceA: "4-(tert-buthyl)heptane",
+    choiceA: "4-(tert-butyl)heptane",
     choiceB: "4-(1,1-dimethylethyl)heptane",
     choiceC: "4-(2-methylpropan-2-yl)heptane",
     choiceD: "4-(2-methylpropanyl)heptane",
@@ -86,13 +86,13 @@ let questions = [{
     choiceA: "5-ethyl-3-methyl-4-propyloctane",
     choiceB: "3-methyl-4,5-dipropylheptane",
     choiceC: "4-(butan-2-yl)-5-ethyloctane",
-    choiceD: "4-(sec-buthyl)-5-ethyloctane",
+    choiceD: "4-(sec-butyl)-5-ethyloctane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/01j.jpg",
     choiceA: "4-isopropyl-3-methylheptane",
-    choiceB: "4(1-methylethyl)-3-methylheptane",
+    choiceB: "4-(1-methylethyl)-3-methylheptane",
     choiceC: "3-methyl-4-(propan-2-yl)heptane",
     choiceD: "3-methyl-4-(1-methylethyl)heptane",
     correctAnswer: "C"
