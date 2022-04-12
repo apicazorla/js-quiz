@@ -84,7 +84,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/04i.jpg",
     choiceA: "1-cyclohexylbenzene",
-    choiceB: "dcyclohexilbenzene",
+    choiceB: "cyclohexylbenzene",
     choiceC: "phenylcyclohexane",
     choiceD: "1,1'-phenylcyclohexane",
     correctAnswer: "B"
@@ -93,8 +93,8 @@ let questions = [{
     imgSrc: "assets/birds/04j.jpg",
     choiceA: "(1,1-dimethylethyl)benzene",
     choiceB: "(2-methylpropan-2-yl)benzene",
-    choiceC: "(tert-buthyl)benzene",
-    choiceD: "(sec-buthyl)benzene",
+    choiceC: "(tert-butyl)benzene",
+    choiceD: "(sec-butyl)benzene",
     correctAnswer: "C"
 }, ];
 
