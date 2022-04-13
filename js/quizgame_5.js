@@ -60,10 +60,10 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05f.jpg",
     choiceA: "3-bromocyclohexene",
-    choiceB: "4-bromocyclohex-1-ene",
-    choiceC: "4-bromocyclohexene",
+    choiceB: "4-bromocyclohexene",
+    choiceC: "4-bromocyclohex-1-ene",
     choiceD: "3-bromocyclohex-1-ene",
-    correctAnswer: "B"
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05g.jpg",
