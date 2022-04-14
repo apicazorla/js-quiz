@@ -22,7 +22,7 @@ let questions = [{
     choiceA: "ethylic alcohol",
     choiceB: "hidroxyethane",
     choiceC: "methylcarbinol",
-    choiceD: "etthanol",
+    choiceD: "ethanol",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -61,8 +61,8 @@ let questions = [{
     imgSrc: "assets/birds/07f.jpg",
     choiceA: "3-methylcyclobuta-1,2-diol",
     choiceB: "1-methylcyclobuta-1,3-diene-2,3-diol",
-    choiceC: "3-methylciclobuta-2,4-diene-1,2-diol",
-    choiceD: "3-methyl-2,4-cyclobutadien.1,2-diol",
+    choiceC: "3-methylcyclobuta-2,4-diene-1,2-diol",
+    choiceD: "3-methyl-2,4-cyclobutadien-1,2-diol",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
