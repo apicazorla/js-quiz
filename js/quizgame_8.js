@@ -20,10 +20,10 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/07a.jpg",
     choiceA: "ethylic alcohol",
-    choiceB: "ethanol",
+    choiceB: "hidroxyethane",
     choiceC: "methylcarbinol",
-    choiceD: "hidroxyethane",
-    correctAnswer: "B"
+    choiceD: "ethanol",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/07b.jpg",
