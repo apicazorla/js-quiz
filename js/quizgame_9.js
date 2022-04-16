@@ -18,83 +18,83 @@ var score = 0;
 
 let questions = [{
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07a.jpg",
-    choiceA: "ethylic alcohol",
-    choiceB: "hydroxyethane",
-    choiceC: "methylcarbinol",
-    choiceD: "ethanol",
-    correctAnswer: "D"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07b.jpg",
-    choiceA: "ethane-1,2-diol",
-    choiceB: "ethanediol",
-    choiceC: "ethylene glycol",
-    choiceD: "1,2.ethanediol",
+    imgSrc: "assets/birds/09a.jpg",
+    choiceA: "acetaldehyde",
+    choiceB: "ethanal",
+    choiceC: "acetic aldehyde",
+    choiceD: "ethyl aldehyde",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07c.jpg",
-    choiceA: "propanol",
-    choiceB: "propilic alcohol",
-    choiceC: "propan-1-ol",
-    choiceD: "1-propanol",
+    imgSrc: "assets/birds/09b.jpg",
+    choiceA: "acrolein",
+    choiceB: "prpenal",
+    choiceC: "prop-2-enal",
+    choiceD: "2-propenal",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07d.jpg",
-    choiceA: "2-hydroxypent-3-ene",
-    choiceB: "pent-2-en-4-ol",
-    choiceC: "4-hydroxypent-2-ene",
-    choiceD: "pent-3-en-2-ol",
-    correctAnswer: "D"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07e.jpg",
-    choiceA: "3-chlorocicloheptan-1-ol",
-    choiceB: "1-chloro-3-hidroxycyclopentane",
-    choiceC: "3-clorocycloheptanol",
-    choiceD: "3-choloroheptanol",
-    correctAnswer: "A"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07f.jpg",
-    choiceA: "3-methylcyclobuta-1,2-diol",
-    choiceB: "1-methylcyclobuta-1,3-diene-2,3-diol",
-    choiceC: "3-methylcyclobuta-2,4-diene-1,2-diol",
-    choiceD: "3-methyl-2,4-cyclobutadien-1,2-diol",
-    correctAnswer: "C"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07g.jpg",
-    choiceA: "phenol",
-    choiceB: "phenic acid",
-    choiceC: "benzenol",
-    choiceD: "hydroxybenzene",
-    correctAnswer: "A"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07h.jpg",
-    choiceA: "2-chlorobenzenol",
-    choiceB: "2-chlorophenol",
-    choiceC: "o-chlorophenol",
-    choiceD: "2-chlorohidroxybenzene",
+    imgSrc: "assets/birds/09c.jpg",
+    choiceA: "1,5-pentanedial",
+    choiceB: "pentanedial",
+    choiceC: "pentane-1,5-dial",
+    choiceD: "glutaraldehyde",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07i.jpg",
-    choiceA: "1-hydroxy-4-methylbenzene",
-    choiceB: "p-cresol",
-    choiceC: "4-methylbenzenol",
-    choiceD: "4-methylphenol",
+    imgSrc: "assets/birds/09d.jpg",
+    choiceA: "geranial",
+    choiceB: "3,7-dimethylocta-2,6-dienal",
+    choiceC: "3,7-dimethyl-2,6-octadienal",
+    choiceD: "3,7-dimethyloctadien-2,6-al",
+    correctAnswer: "B"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/09e.jpg",
+    choiceA: "2-methyl-3-hydroxybutanal",
+    choiceB: "4.formyl-2-methylbutan-2-ol",
+    choiceC: "3-hydroxy-2-methylbutan-1-al",
+    choiceD: "3-hydroxy-2-methylbutanal",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07j.jpg",
-    choiceA: "1,3-dihidroxybenzene",
-    choiceB: "benzene-1,3-diol",
-    choiceC: "1,3-benzenediol",
-    choiceD: "resorcinol",
+    imgSrc: "assets/birds/09f.jpg",
+    choiceA: "butane-1,2,4-tricarbaldehyde",
+    choiceB: "3-formilhexane-1,6-dial",
+    choiceC: "3-formilhexanedial",
+    choiceD: "butane-1,3,4-tricarbaldehyde",
+    correctAnswer: "A"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/09g.jpg",
+    choiceA: "benzenecarboxaldehyde",
+    choiceB: "phenylmethanal",
+    choiceC: "benzenecarbaldehyde",
+    choiceD: "benzoic aldehyde",
+    correctAnswer: "C"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/09h.jpg",
+    choiceA: "3-hydroxycyclohex-4-ene-1-al",
+    choiceB: "3-hydroxycyclohex-4-ene-1-carbaldehyde",
+    choiceC: "5-hydroxycyclohex-3-ene-al",
+    choiceD: "5-hydroxycyclohex-3-ene-1-carbaldehyde",
+    correctAnswer: "D"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/09i.jpg",
+    choiceA: "benzene-1,2-dicarboxaldehyde",
+    choiceB: "benzene-1,2-dicarbaldehyde",
+    choiceC: "phthalaldehyde",
+    choiceD: "o-phthalaldehyde",
+    correctAnswer: "A"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/09j.jpg",
+    choiceA: "2,2-difluorocyclopentane-1-carbaldehyde",
+    choiceB: "3,3-difluorocyclopentane-1-carbaldehyde",
+    choiceC: "3,3-difluorocyclopentanecarbaldehyde",
+    choiceD: "2,2-difluorocyclopentanecarbaldehyde",
     correctAnswer: "B"
 }, ];
 
