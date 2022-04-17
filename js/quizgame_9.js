@@ -28,7 +28,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09b.jpg",
     choiceA: "acrolein",
-    choiceB: "prpenal",
+    choiceB: "propenal",
     choiceC: "prop-2-enal",
     choiceD: "2-propenal",
     correctAnswer: "C"
