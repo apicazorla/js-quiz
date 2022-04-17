@@ -59,10 +59,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09f.jpg",
-    choiceA: "butane-1,2,4-tricarbaldehyde",
-    choiceB: "3-formilhexane-1,6-dial",
-    choiceC: "3-formilhexanedial",
-    choiceD: "butane-1,3,4-tricarbaldehyde",
+    choiceA: "butane-1,2,2,4-tetracarbaldehyde",
+    choiceB: "3,3-diformilhexane-1,6-dial",
+    choiceC: "3,3-diformilhexanedial",
+    choiceD: "butane-1,3,3,4-tetracarbaldehyde",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
