@@ -52,7 +52,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09e.jpg",
     choiceA: "2-methyl-3-hydroxybutanal",
-    choiceB: "4.formyl-2-methylbutan-2-ol",
+    choiceB: "4-formyl-2-methylbutan-2-ol",
     choiceC: "3-hydroxy-2-methylbutan-1-al",
     choiceD: "3-hydroxy-2-methylbutanal",
     correctAnswer: "D"

@@ -30,7 +30,7 @@ let questions = [{
     choiceA: "ethane-1,2-diol",
     choiceB: "ethanediol",
     choiceC: "ethylene glycol",
-    choiceD: "1,2.ethanediol",
+    choiceD: "1,2-ethanediol",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -53,8 +53,8 @@ let questions = [{
     imgSrc: "assets/birds/07e.jpg",
     choiceA: "3-chlorocicloheptan-1-ol",
     choiceB: "1-chloro-3-hidroxycyclopentane",
-    choiceC: "3-clorocycloheptanol",
-    choiceD: "3-choloroheptanol",
+    choiceC: "3-chlorocycloheptanol",
+    choiceD: "3-chloroheptanol",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
