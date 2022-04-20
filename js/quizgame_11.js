@@ -45,7 +45,7 @@ let questions = [{
     imgSrc: "assets/birds/11d.jpg",
     choiceA: "prop-2-enoic acid",
     choiceB: "acrylic acid ",
-    choiceC: "ethyleneacarboxylic acid",
+    choiceC: "ethylenecarboxylic acid",
     choiceD: "propenoic acid",
     correctAnswer: "A"
 }, {
@@ -94,7 +94,7 @@ let questions = [{
     choiceA: "3-aminobenzoic acid",
     choiceB: "3-aminobenzenecarboxilic acid",
     choiceC: "m-aminobenzoic acid",
-    choiceD: "3-aminobenzoic acid",
+    choiceD: "2-aminobenzoic acid",
     correctAnswer: "A"
 }, ];
 
