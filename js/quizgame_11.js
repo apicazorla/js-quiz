@@ -30,8 +30,8 @@ let questions = [{
     choiceA: "1,2-ethanodioic acid",
     choiceB: "oxamic acid",
     choiceC: "oxalic acid",
-    choiceD: "butanone",
-    correctAnswer: "D"
+    choiceD: "methanecarboxylic acid",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/11c.jpg",
@@ -52,8 +52,8 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/11e.jpg",
     choiceA: "1,2-dihydroxipropanoic acid",
-    choiceB: "gliceric acid",
-    choiceC: "glicolic acid",
+    choiceB: "glyceric acid",
+    choiceC: "glycolic acid",
     choiceD: "2,3-dihydroxypropanoic acid",
     correctAnswer: "D"
 }, {
@@ -83,14 +83,14 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/11i.jpg",
-    choiceA: "5-cyclohexene-1,2-dicarboxylic acid",
-    choiceB: "cyclohex-5-ene-1,2-dicarboxylic acid",
+    choiceA: "3-cyclohexene-1,2-dicarboxylic acid",
+    choiceB: "cyclohex-3-ene-1,2-dicarboxylic acid",
     choiceC: "cyclohex-4-ene-1,2-dicarboxilic acid",
     choiceD: "4-cyclohexene-1,2-dicarboxilic acid",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/10j.jpg",
+    imgSrc: "assets/birds/11j.jpg",
     choiceA: "3-aminobenzoic acid",
     choiceB: "3-aminobenzenecarboxilic acid",
     choiceC: "m-aminobenzoic acid",
