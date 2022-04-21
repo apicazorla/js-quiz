@@ -70,7 +70,7 @@ let questions = [{
     choiceA: "phenyl acetate",
     choiceB: "benzyl acetate",
     choiceC: "benzyl ethanoate",
-    choiceD: "pehenylmethyl ethanoate",
+    choiceD: "phenylmethyl ethanoate",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -90,9 +90,9 @@ let questions = [{
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/11j.jpg",
+    imgSrc: "assets/birds/12j.jpg",
     choiceA: "dimethyl glutarate",
-    choiceB: "3dimethyl pentane-1,5-dioate",
+    choiceB: "dimethyl pentane-1,5-dioate",
     choiceC: "dimethyl pentanedioate",
     choiceD: "dimethyl 1,5-pentanedioate",
     correctAnswer: "C"
