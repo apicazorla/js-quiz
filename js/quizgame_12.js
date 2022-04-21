@@ -83,18 +83,18 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/12i.jpg",
-    choiceA: "ethyl 4-chloro-5-oxohexanoate",
-    choiceB: "ethyl 3-chloro-2-oxohexanoate",
-    choiceC: "ethyl 4-chloro-5-oxopentanoate",
-    choiceD: "ethyl 3-chloro-2-oxopentanoate",
+    choiceA: "methyl 4-chloro-5-oxohexanoate",
+    choiceB: "methyl 3-chloro-2-oxohexanoate",
+    choiceC: "methyl 4-chloro-5-oxopentanoate",
+    choiceD: "methyl 3-chloro-2-oxopentanoate",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/12j.jpg",
-    choiceA: "dimethyl glutarate",
-    choiceB: "dimethyl pentane-1,5-dioate",
-    choiceC: "dimethyl pentanedioate",
-    choiceD: "dimethyl 1,5-pentanedioate",
+    choiceA: "dimethyl succinate",
+    choiceB: "dimethyl butatane-1,4-dioate",
+    choiceC: "dimethyl butanedioate",
+    choiceD: "dimethyl 1,4-butanedioate",
     correctAnswer: "C"
 }, ];
 
