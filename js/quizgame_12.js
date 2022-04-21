@@ -77,8 +77,8 @@ let questions = [{
     imgSrc: "assets/birds/12h.jpg",
     choiceA: "benzoic ether",
     choiceB: "ethyl benzenecarboxylaye",
-    choiceC: "methylbenzoate",
-    choiceD: "ethylbenzoate",
+    choiceC: "methyl benzoate",
+    choiceD: "ethyl benzoate",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -92,7 +92,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/12j.jpg",
     choiceA: "dimethyl succinate",
-    choiceB: "dimethyl butatane-1,4-dioate",
+    choiceB: "dimethyl butane-1,4-dioate",
     choiceC: "dimethyl butanedioate",
     choiceD: "dimethyl 1,4-butanedioate",
     correctAnswer: "C"
