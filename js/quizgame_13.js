@@ -67,10 +67,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13g.jpg",
-    choiceA: "cyclopent-3-enecarboxamide",
+    choiceA: "3-methylcyclopent-3-enecarboxamide",
     choiceB: "4-methylcyclopent-3-enecarboxamide",
-    choiceC: "4-iodocyclopent-3-ene-1-carboxamide",
-    choiceD: "3-iodocyclopent-3-ene-1-carboxamide",
+    choiceC: "4-methylcyclopent-3-ene-1-carboxamide",
+    choiceD: "3-methylcyclopent-3-ene-1-carboxamide",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
