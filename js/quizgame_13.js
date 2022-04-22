@@ -19,83 +19,83 @@ var score = 0;
 let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13a.jpg",
-    choiceA: "ethyl acetate",
-    choiceB: "methyl acetate",
-    choiceC: "ethyl ethanoate",
-    choiceD: "methyl ethanoate",
-    correctAnswer: "B"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13b.jpg",
-    choiceA: "butyric ether",
-    choiceB: "ethyl butyrate",
-    choiceC: "ethyl n-butanoate",
-    choiceD: "ethyl butanoate",
-    correctAnswer: "D"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13c.jpg",
-    choiceA: "isopropyl formate",
-    choiceB: "isopropyl methanoate",
-    choiceC: "propan-2-yl formate",
-    choiceD: "1-methylethyl formate",
-    correctAnswer: "C"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13d.jpg",
-    choiceA: "3-methylbutyl acetate",
-    choiceB: "3-methylbutyl ethanoate ",
-    choiceC: "isopentyl acetate",
-    choiceD: "isopentyl ethanoate",
+    choiceA: "formamide",
+    choiceB: "methanamide",
+    choiceC: "carbamaldehyde",
+    choiceD: "methaneamide",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13e.jpg",
-    choiceA: "allyl butanoate",
-    choiceB: "ethenyl butanoate",
-    choiceC: "prop-2-en-1-yl butanoate",
-    choiceD: "prop-1-en-1-yl butanoate",
+    imgSrc: "assets/birds/13b.jpg",
+    choiceA: "hexaneamide",
+    choiceB: "hexylamide",
+    choiceC: "hexaneamide",
+    choiceD: "caproamide",
     correctAnswer: "C"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/13c.jpg",
+    choiceA: "glutaramide",
+    choiceB: "1,3-propanedicarboxamide",
+    choiceC: "pentane-1,5-diamide",
+    choiceD: "pentanediamide",
+    correctAnswer: "D"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/13d.jpg",
+    choiceA: "propenamide",
+    choiceB: "acrylamide ",
+    choiceC: "prop-2-enamide",
+    choiceD: "2-propeneamide",
+    correctAnswer: "C"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/13e.jpg",
+    choiceA: "N-methylpropan-1-amide",
+    choiceB: "N-methylpropionamide",
+    choiceC: "methylpropionamide",
+    choiceD: "N-methylpropanamide",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13f.jpg",
-    choiceA: "ethyl 2-hydroxypropionate",
-    choiceB: "ethyl hidroxypropanoate",
-    choiceC: "ethyl 2-hydroxypropanoate",
-    choiceD: "ethyl hidroxypropionate",
-    correctAnswer: "C"
+    choiceA: "1,1,3-propanetricarboxamide",
+    choiceB: "propane-1,1,3-tricarboxamide",
+    choiceC: "2-carbamoilpentanediamide",
+    choiceD: "2-carbamoilpropanediamide",
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13g.jpg",
-    choiceA: "phenyl acetate",
-    choiceB: "benzyl acetate",
-    choiceC: "benzyl ethanoate",
-    choiceD: "phenylmethyl ethanoate",
+    choiceA: "3-iodocyclopent-3-enecarboxamide",
+    choiceB: "4-iodocyclopent-3-enecarboxamide",
+    choiceC: "4-iodocyclopent-3-ene-1-carboxamide",
+    choiceD: "3-iodocyclopent-3-ene-1-carboxamide",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13h.jpg",
-    choiceA: "benzoic ether",
-    choiceB: "ethyl benzenecarboxylaye",
-    choiceC: "methyl benzoate",
-    choiceD: "ethyl benzoate",
-    correctAnswer: "D"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13i.jpg",
-    choiceA: "methyl 4-chloro-5-oxohexanoate",
-    choiceB: "methyl 3-chloro-2-oxohexanoate",
-    choiceC: "methyl 4-chloro-5-oxopentanoate",
-    choiceD: "methyl 3-chloro-2-oxopentanoate",
+    choiceA: "benzenamide",
+    choiceB: "benzamide",
+    choiceC: "phenyl carboxamide",
+    choiceD: "benzenecarboxamide",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/13j.jpg",
-    choiceA: "dimethyl succinate",
-    choiceB: "dimethyl butane-1,4-dioate",
-    choiceC: "dimethyl butanedioate",
-    choiceD: "dimethyl 1,4-butanedioate",
+    imgSrc: "assets/birds/13i.jpg",
+    choiceA: "m-benzenedicarboxamide",
+    choiceB: "isoftalamide",
+    choiceC: "benzene-1,3-dicarboxamide",
+    choiceD: "1,3-benzenedicarboxamide",
     correctAnswer: "C"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/13j.jpg",
+    choiceA: "4-amino-4-oxobutanoic acid",
+    choiceB: "3-carbamoilpropanoic acid",
+    choiceC: "4-(aminocarbonyl)butanoic acid",
+    choiceD: "4-oxo-4-aminobutanoic acid",
+    correctAnswer: "B"
 }, ];
 
 
