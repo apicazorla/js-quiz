@@ -71,7 +71,7 @@ let questions = [{
     choiceB: "4-iodocyclopent-3-enecarboxamide",
     choiceC: "4-iodocyclopent-3-ene-1-carboxamide",
     choiceD: "3-iodocyclopent-3-ene-1-carboxamide",
-    correctAnswer: "B"
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13h.jpg",
