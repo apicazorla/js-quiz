@@ -29,7 +29,7 @@ let questions = [{
     imgSrc: "assets/birds/13b.jpg",
     choiceA: "hexaneamide",
     choiceB: "hexylamide",
-    choiceC: "hexaneamide",
+    choiceC: "hexanamide",
     choiceD: "caproamide",
     correctAnswer: "C"
 }, {
@@ -53,7 +53,7 @@ let questions = [{
     imgSrc: "assets/birds/13e.jpg",
     choiceA: "N-methylpropan-1-amide",
     choiceB: "N-methylpropionamide",
-    choiceC: "methylpropionamide",
+    choiceC: "N-methylpropaneamide",
     choiceD: "N-methylpropanamide",
     correctAnswer: "D"
 }, {
