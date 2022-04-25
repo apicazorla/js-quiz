@@ -28,14 +28,14 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14b.jpg",
     choiceA: "3-aminohexane",
-    choiceB: "3-hexaneamine",
+    choiceB: "3-hexanamine",
     choiceC: "hexan-3-amine",
     choiceD: "1-ethylbutylamine",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14c.jpg",
-    choiceA: "4-methyl-2,3,5.hexanetriamine",
+    choiceA: "4-methyl-2,3,5-hexanetriamine",
     choiceB: "4-methylhexane-2,3-5-triamine",
     choiceC: "2-methylhexane-2,4,5-triamine",
     choiceD: "2-methyl-2,4,5-hexanetriamine",
@@ -59,10 +59,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14f.jpg",
-    choiceA: "dietilpropilamine",
+    choiceA: "diethylpropylamine",
     choiceB: "N,N-diethylpropanamine",
     choiceC: "N,N-diethylpropan-1-amine",
-    choiceD: "dimethyl(propyl)amine",
+    choiceD: "diethyl(propyl)amine",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -76,7 +76,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14h.jpg",
     choiceA: "aniline",
-    choiceB: "(phenyl)amine)",
+    choiceB: "(phenyl)amine",
     choiceC: "aminobenzene",
     choiceD: "benzenamine",
     correctAnswer: "A"
