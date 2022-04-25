@@ -18,7 +18,7 @@ var score = 0;
 
 let questions = [{
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/01a.png",
+    imgSrc: "assets/birds/01a.jpg",
     choiceA: "pentane",
     choiceB: "heptane",
     choiceC: "hexane",
