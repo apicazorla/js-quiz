@@ -1,5 +1,5 @@
 var i = 0; 
-var txt = 'share the web www.nomenclaturaquimica.com';
+var txt = 'Share the web www.nomenclaturaquimica.com';
 var speed = 50;
 function typeWriter() 
 { 
