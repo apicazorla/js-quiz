@@ -43,10 +43,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14d.jpg",
-    choiceA: "2-methyl-3-pentynamine",
-    choiceB: "2-methyl-3-pentyn-1-amine ",
-    choiceC: "2-methylpent-3-ynanime",
-    choiceD: "2-methylpent-3-yn-1-amine",
+    choiceA: "butyl(cycloproyl)azane",
+    choiceB: "butyl(cyclopropyl)amine ",
+    choiceC: "N-cyclobutylpropan-1-amine",
+    choiceD: "N-propylcyclobutanamine",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
