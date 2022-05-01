@@ -51,10 +51,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05e.jpg",
-    choiceA: "sec-buthyl chloride",
-    choiceB: "2-chlorobuthane",
-    choiceC: "chlorobuthane",
-    choiceD: "2-chlorobuthene",
+    choiceA: "sec-butyl chloride",
+    choiceB: "2-chlorobutane",
+    choiceC: "chlorobutane",
+    choiceD: "2-chlorobutene",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
