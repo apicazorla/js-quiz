@@ -77,8 +77,8 @@ let questions = [{
     imgSrc: "assets/birds/06h.jpg",
     choiceA: "3-ethyl-5-nitrocyclohexene",
     choiceB: "3-ethyl-5-nitrohexene",
-    choiceC: "3-ethyl-5-nitrocyclohex-1-ene",
-    choiceD: "2-ethyl-4-nitrocyclohex-1-ene",
+    choiceC: "2-ethyl-4-nitrocyclohex-1-ene",
+    choiceD: "3-ethyl-5-nitrocyclohex-1-ene",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
