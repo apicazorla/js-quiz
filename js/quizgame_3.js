@@ -83,7 +83,7 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/03i.jpg",
-    choiceA: "phenylcyclohexane",
+    choiceA: "cyclohexylcyclohexane",
     choiceB: "dicyclohexylmethane",
     choiceC: "bis(cyclohexane)",
     choiceD: "diphenylmethane",

@@ -62,7 +62,7 @@ let questions = [{
     choiceA: "3-ethyl-5-methylheptane",
     choiceB: "5-ethyl-3-methylheptane",
     choiceC: "5-ethyl-3-methylhexane",
-    choiceD: "3-ethyl-methylhexane",
+    choiceD: "3-ethyl-5-methylhexane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -70,7 +70,7 @@ let questions = [{
     choiceA: "trimethylbutane",
     choiceB: "3,3,2-trimethylbutane",
     choiceC: "3,3,2-trimethylbutane",
-    choiceD: "2,2,3,-trimethylbutane",
+    choiceD: "2,2,3-trimethylbutane",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
