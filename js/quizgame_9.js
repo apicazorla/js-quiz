@@ -60,8 +60,8 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09f.jpg",
     choiceA: "butane-1,2,2,4-tetracarbaldehyde",
-    choiceB: "3,3-diformilhexane-1,6-dial",
-    choiceC: "3,3-diformilhexanedial",
+    choiceB: "3,3-diformylhexane-1,6-dial",
+    choiceC: "3,3-diformylhexanedial",
     choiceD: "butane-1,3,3,4-tetracarbaldehyde",
     correctAnswer: "A"
 }, {
@@ -87,7 +87,7 @@ let questions = [{
     choiceB: "benzene-1,2-dicarbaldehyde",
     choiceC: "phthalaldehyde",
     choiceD: "o-phthalaldehyde",
-    correctAnswer: "A"
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09j.jpg",
