@@ -77,7 +77,7 @@ let questions = [{
     imgSrc: "assets/birds/09h.jpg",
     choiceA: "3-hydroxycyclohex-4-ene-1-al",
     choiceB: "3-hydroxycyclohex-4-ene-1-carbaldehyde",
-    choiceC: "5-hydroxycyclohex-3-ene-al",
+    choiceC: "5-hydroxycyclohex-3-enal",
     choiceD: "5-hydroxycyclohex-3-ene-1-carbaldehyde",
     correctAnswer: "D"
 }, {
