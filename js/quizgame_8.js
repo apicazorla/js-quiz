@@ -19,83 +19,83 @@ var score = 0;
 let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08a.jpg",
-    choiceA: "ethylic alcohol",
-    choiceB: "hydroxyethane",
-    choiceC: "methylcarbinol",
-    choiceD: "ethanol",
-    correctAnswer: "D"
+    choiceA: "methoxymethane",
+    choiceB: "dimethyl ether",
+    choiceC: "methyl ether",
+    choiceD: "methyl oxide",
+    correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08b.jpg",
-    choiceA: "ethane-1,2-diol",
-    choiceB: "ethanediol",
-    choiceC: "ethylene glycol",
-    choiceD: "1,2-ethanediol",
-    correctAnswer: "A"
+    choiceA: "ethyl methyl ether",
+    choiceB: "ethoximethane",
+    choiceC: "methoxiethane",
+    choiceD: "methyl ethyl ether",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08c.jpg",
-    choiceA: "propanol",
-    choiceB: "propilic alcohol",
-    choiceC: "propan-1-ol",
-    choiceD: "1-propanol",
-    correctAnswer: "C"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/08d.jpg",
-    choiceA: "2-hydroxypent-3-ene",
-    choiceB: "pent-2-en-4-ol",
-    choiceC: "4-hydroxypent-2-ene",
-    choiceD: "pent-3-en-2-ol",
+    choiceA: "2-bromoethyl ethyl ether",
+    choiceB: "ethyl 2-bromoethyl ether",
+    choiceC: "2-bromo-1-ethoxyethane",
+    choiceD: "1-bromo-2-ethoxiethane",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/08d.jpg",
+    choiceA: "cyclopropyl cyclobutyl ether",
+    choiceB: "cyclopropoxycyclobutane",
+    choiceC: "ciclobutoxycyclopropane",
+    choiceD: "cyclobutyl cyclopropyl ether",
+    correctAnswer: "B"
+}, {
+    question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08e.jpg",
-    choiceA: "3-chlorocicloheptan-1-ol",
-    choiceB: "1-chloro-3-hidroxycyclopentane",
-    choiceC: "3-chlorocycloheptanol",
-    choiceD: "3-chloroheptanol",
-    correctAnswer: "A"
+    choiceA: "propyl vinyl ether",
+    choiceB: "ethenyl propyl ether",
+    choiceC: "1-(vinyloxy)propane",
+    choiceD: "1-(ethenyloxy)propane",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08f.jpg",
-    choiceA: "3-methylcyclobuta-1,2-diol",
-    choiceB: "1-methylcyclobuta-1,3-diene-2,3-diol",
-    choiceC: "3-methylcyclobuta-2,4-diene-1,2-diol",
-    choiceD: "3-methyl-2,4-cyclobutadien-1,2-diol",
-    correctAnswer: "C"
+    choiceA: "methyl phenyl ether",
+    choiceB: "ansole",
+    choiceC: "methoxibenzene",
+    choiceD: "phenoximethane",
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08g.jpg",
-    choiceA: "phenol",
-    choiceB: "phenic acid",
-    choiceC: "benzenol",
-    choiceD: "hydroxybenzene",
+    choiceA: "1-chloro-4-methoxybenzene",
+    choiceB: "1-methoxy-4-chlorobenzene",
+    choiceC: "3-chorophenyl methyl ether",
+    choiceD: "4-chlorophenyl methyl ether",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08h.jpg",
-    choiceA: "2-chlorobenzenol",
-    choiceB: "2-chlorophenol",
-    choiceC: "o-chlorophenol",
-    choiceD: "2-chlorohidroxybenzene",
+    choiceA: "cyclohexyloxibenzene",
+    choiceB: "(cyclohexyloxy)benzene",
+    choiceC: "cyclohexyloxy phenyl ether",
+    choiceD: "phenyl cyclohexyl ether",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08i.jpg",
-    choiceA: "1-hydroxy-4-methylbenzene",
-    choiceB: "p-cresol",
-    choiceC: "4-methylbenzenol",
-    choiceD: "4-methylphenol",
+    choiceA: "diphenyl ether",
+    choiceB: "phenoxybenzene",
+    choiceC: "oxidibenzene",
+    choiceD: "1,1'-oxidibenzene",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08j.jpg",
-    choiceA: "1,3-dihidroxybenzene",
-    choiceB: "benzene-1,3-diol",
-    choiceC: "1,3-benzenediol",
-    choiceD: "resorcinol",
-    correctAnswer: "B"
+    choiceA: "methyl 2-naphthyl ether",
+    choiceB: "methyl naphthalen-2-yl ether",
+    choiceC: "2-methoxynaphthalene",
+    choiceD: "methoxy  naphthalene",
+    correctAnswer: "C"
 }, ];
 
 
