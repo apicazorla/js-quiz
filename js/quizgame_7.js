@@ -69,7 +69,7 @@ let questions = [{
     imgSrc: "assets/birds/07g.jpg",
     choiceA: "phenol",
     choiceB: "phenic acid",
-    choiceC: "benzenol",
+    choiceC: "phenylic acid",
     choiceD: "hydroxybenzene",
     correctAnswer: "A"
 }, {
