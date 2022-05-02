@@ -60,7 +60,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08f.jpg",
     choiceA: "methyl phenyl ether",
-    choiceB: "ansole",
+    choiceB: "anisole",
     choiceC: "methoxibenzene",
     choiceD: "phenoximethane",
     correctAnswer: "B"
@@ -91,10 +91,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08j.jpg",
-    choiceA: "methyl 2-naphthyl ether",
-    choiceB: "methyl naphthalen-2-yl ether",
-    choiceC: "2-methoxynaphthalene",
-    choiceD: "methoxy  naphthalene",
+    choiceA: "ethyl 2-naphthyl ether",
+    choiceB: "ethyl naphthalen-2-yl ether",
+    choiceC: "2-ethoxynaphthalene",
+    choiceD: "ethoxy  naphthalene",
     correctAnswer: "C"
 }, ];
 
