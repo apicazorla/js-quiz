@@ -35,10 +35,10 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/08c.jpg",
-    choiceA: "2-bromoethyl ethyl ether",
-    choiceB: "ethyl 2-bromoethyl ether",
-    choiceC: "2-bromo-1-ethoxyethane",
-    choiceD: "1-bromo-2-ethoxiethane",
+    choiceA: "ethoxyisobutane",
+    choiceB: "2-methyl propyl ether",
+    choiceC: "3-methoxy-2-methylpropane",
+    choiceD: "1-ethoxy-2-methylpropane",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
