@@ -18,7 +18,7 @@ var score = 0;
 
 let questions = [{
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07a.jpg",
+    imgSrc: "assets/birds/08a.jpg",
     choiceA: "ethylic alcohol",
     choiceB: "hydroxyethane",
     choiceC: "methylcarbinol",
@@ -26,7 +26,7 @@ let questions = [{
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07b.jpg",
+    imgSrc: "assets/birds/08b.jpg",
     choiceA: "ethane-1,2-diol",
     choiceB: "ethanediol",
     choiceC: "ethylene glycol",
@@ -34,7 +34,7 @@ let questions = [{
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07c.jpg",
+    imgSrc: "assets/birds/08c.jpg",
     choiceA: "propanol",
     choiceB: "propilic alcohol",
     choiceC: "propan-1-ol",
@@ -42,7 +42,7 @@ let questions = [{
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07d.jpg",
+    imgSrc: "assets/birds/08d.jpg",
     choiceA: "2-hydroxypent-3-ene",
     choiceB: "pent-2-en-4-ol",
     choiceC: "4-hydroxypent-2-ene",
@@ -50,7 +50,7 @@ let questions = [{
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07e.jpg",
+    imgSrc: "assets/birds/08e.jpg",
     choiceA: "3-chlorocicloheptan-1-ol",
     choiceB: "1-chloro-3-hidroxycyclopentane",
     choiceC: "3-chlorocycloheptanol",
@@ -58,7 +58,7 @@ let questions = [{
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07f.jpg",
+    imgSrc: "assets/birds/08f.jpg",
     choiceA: "3-methylcyclobuta-1,2-diol",
     choiceB: "1-methylcyclobuta-1,3-diene-2,3-diol",
     choiceC: "3-methylcyclobuta-2,4-diene-1,2-diol",
@@ -66,7 +66,7 @@ let questions = [{
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07g.jpg",
+    imgSrc: "assets/birds/08g.jpg",
     choiceA: "phenol",
     choiceB: "phenic acid",
     choiceC: "benzenol",
@@ -74,7 +74,7 @@ let questions = [{
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07h.jpg",
+    imgSrc: "assets/birds/08h.jpg",
     choiceA: "2-chlorobenzenol",
     choiceB: "2-chlorophenol",
     choiceC: "o-chlorophenol",
@@ -82,7 +82,7 @@ let questions = [{
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07i.jpg",
+    imgSrc: "assets/birds/08i.jpg",
     choiceA: "1-hydroxy-4-methylbenzene",
     choiceB: "p-cresol",
     choiceC: "4-methylbenzenol",
@@ -90,7 +90,7 @@ let questions = [{
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/07j.jpg",
+    imgSrc: "assets/birds/08j.jpg",
     choiceA: "1,3-dihidroxybenzene",
     choiceB: "benzene-1,3-diol",
     choiceC: "1,3-benzenediol",
