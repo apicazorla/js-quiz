@@ -51,7 +51,7 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/07e.jpg",
-    choiceA: "3-chlorociclopentan-1-ol",
+    choiceA: "3-chlorocyclopentan-1-ol",
     choiceB: "1-chloro-3-hydroxycyclopentane",
     choiceC: "3-chlorocyclopentanol",
     choiceD: "3-chloropentanol",
