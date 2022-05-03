@@ -46,7 +46,7 @@ let questions = [{
     choiceA: "geranial",
     choiceB: "3,7-dimethylocta-2,6-dienal",
     choiceC: "3,7-dimethyl-2,6-octadienal",
-    choiceD: "3,7-dimethyloctadien-2,6-al",
+    choiceD: "3,7-dimethylocta-2,6-dien-1-al",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -69,15 +69,15 @@ let questions = [{
     imgSrc: "assets/birds/09g.jpg",
     choiceA: "benzenecarboxaldehyde",
     choiceB: "phenylmethanal",
-    choiceC: "benzenecarbaldehyde",
-    choiceD: "benzoic aldehyde",
+    choiceC: "benzaldehyde",
+    choiceD: "benzenecarbaldehyde",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/09h.jpg",
     choiceA: "3-hydroxycyclohex-4-ene-1-al",
     choiceB: "3-hydroxycyclohex-4-ene-1-carbaldehyde",
-    choiceC: "5-hydroxycyclohex-3-enal",
+    choiceC: "5-hydroxycyclohex-3-enecarbaldehyde",
     choiceD: "5-hydroxycyclohex-3-ene-1-carbaldehyde",
     correctAnswer: "D"
 }, {
