@@ -43,9 +43,9 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10d.jpg",
-    choiceA: "3-oxo-but-1-al",
+    choiceA: "3-oxobutan-1-al",
     choiceB: "3-oxobutanal",
-    choiceC: "4-formilbutan-2-one",
+    choiceC: "4-formylbutan-2-one",
     choiceD: "3-oxobutyraldehyde",
     correctAnswer: "B"
 }, {
