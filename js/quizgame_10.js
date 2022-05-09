@@ -19,22 +19,14 @@ var score = 0;
 let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10a.jpg",
-    choiceA: "dimethyl ketone",
-    choiceB: "acetone",
-    choiceC: "propan-2-one",
-    choiceD: "propanone",
-    correctAnswer: "C"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/10b.jpg",
-    choiceA: "butan-2-one",
-    choiceB: "ethyl methyl ketone",
-    choiceC: "methylpropanone",
-    choiceD: "butanone",
+    choiceA: "1-chloropropan-2-one",
+    choiceB: "chloropropanone",
+    choiceC: "chloropropan-2-one",
+    choiceD: "1-chloro-2-oxypropane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/10c.jpg",
+    imgSrc: "assets/birds/10b.jpg",
     choiceA: "2,4-pentanedione",
     choiceB: "diacetylmethane",
     choiceC: "acetylacetone",
@@ -42,36 +34,44 @@ let questions = [{
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/10c.jpg",
+    choiceA: "1,3-hexanedione",
+    choiceB: "3-oxohexan-1-al",
+    choiceC: "hexane-1,3-dione",
+    choiceD: "3-oxohexanal",
+    correctAnswer: "D"
+}, {
+    question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10d.jpg",
-    choiceA: "3-oxobutan-1-al",
-    choiceB: "3-oxobutanal",
-    choiceC: "4-formylbutan-2-one",
-    choiceD: "3-oxobutyraldehyde",
+    choiceA: "3-methylbut-3-enona",
+    choiceB: "3-methylbut-3-en-2-one",
+    choiceC: "2-methylbut-3-en-3-one",
+    choiceD: "2-methylbut-1-enona",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10e.jpg",
-    choiceA: "4-hydroxycyclopent-2-en-1-one",
-    choiceB: "2-oxocyclopent-2-en-1-ol",
-    choiceC: "4-hydroxycyclopent-2-enona",
-    choiceD: "2-oxocyclopent-2-enol",
-    correctAnswer: "A"
+    choiceA: "oxobutanol",
+    choiceB: "2-oxo-butan-1-ol",
+    choiceC: "1-hydroxybutan-2-one",
+    choiceD: "1-hydroxybutanone",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10f.jpg",
-    choiceA: "3-buten-2-one",
-    choiceB: "but-1-en-3-one",
-    choiceC: "but-3-en-2-one",
-    choiceD: "1-buten-3-one",
+    choiceA: "3-hydroxycyclopent-4-en-1-one",
+    choiceB: "3-hydroxycyclopent-4-enone",
+    choiceC: "4-hydroxycyclopent-2-enone",
+    choiceD: "4-hydroxycyclopent-2-en-1-one",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10g.jpg",
-    choiceA: "1-pent-4-yn-3-one",
-    choiceB: "pent-4-en-1-yn-3-one",
-    choiceC: "4-penten-1-yn-3-one",
-    choiceD: "pent-1-en-4-yn-3-one",
-    correctAnswer: "D"
+    choiceA: "pyruvic acid",
+    choiceB: "oxopropanoic acid",
+    choiceC: "2-oxopropanoic acid",
+    choiceD: "acetylformic acid",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10h.jpg",
@@ -83,18 +83,18 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10i.jpg",
-    choiceA: "acetophenone",
-    choiceB: "phenylethanone",
-    choiceC: "1-phenylethan-1-one",
-    choiceD: "methyl phenyl ketone",
+    choiceA: "diphenyl ketone",
+    choiceB: "benzophenone",
+    choiceC: "diphenylmethanone",
+    choiceD: "1,1'-carbonyldibenzene",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10j.jpg",
-    choiceA: "diphenylmethanone",
-    choiceB: "benzophenone",
-    choiceC: "diphenyl ketone",
-    choiceD: "benzoylbenzene",
+    choiceA: "1-phenylpropan-1-one",
+    choiceB: "phenylpropanone",
+    choiceC: "1-phenylpropanone",
+    choiceD: "propiophenone",
     correctAnswer: "A"
 }, ];
 
