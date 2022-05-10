@@ -52,18 +52,18 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10e.jpg",
     choiceA: "oxobutanol",
-    choiceB: "2-oxo-butan-1-ol",
+    choiceB: "2-oxobutan-1-ol",
     choiceC: "1-hydroxybutan-2-one",
     choiceD: "1-hydroxybutanone",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10f.jpg",
-    choiceA: "3-hydroxycyclopent-4-en-1-one",
-    choiceB: "3-hydroxycyclopent-4-enone",
-    choiceC: "4-hydroxycyclopent-2-enone",
-    choiceD: "4-hydroxycyclopent-2-en-1-one",
-    correctAnswer: "C"
+    choiceA: "4-hydroxycyclohex-4-en-1-one",
+    choiceB: "4-hydroxycyclohex-4-enone",
+    choiceC: "5-hydroxycyclohex-2-enone",
+    choiceD: "5-hydroxycyclohex-2-en-1-one",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10g.jpg",
