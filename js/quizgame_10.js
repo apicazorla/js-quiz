@@ -21,7 +21,7 @@ let questions = [{
     imgSrc: "assets/birds/10a.jpg",
     choiceA: "1-chlorobutan-2-one",
     choiceB: "chlorobutanone",
-    choiceC: "chloropropan-2-one",
+    choiceC: "chlorobutan-2-one",
     choiceD: "1-chloro-2-oxybutane",
     correctAnswer: "A"
 }, {
@@ -36,7 +36,7 @@ let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10c.jpg",
     choiceA: "1,3-hexanedione",
-    choiceB: "3-oxohexan-1-al",
+    choiceB: "3-oxo-1-hexanal",
     choiceC: "hexane-1,3-dione",
     choiceD: "3-oxohexanal",
     correctAnswer: "D"
