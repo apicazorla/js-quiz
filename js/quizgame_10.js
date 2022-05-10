@@ -19,10 +19,10 @@ var score = 0;
 let questions = [{
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/10a.jpg",
-    choiceA: "1-chloropropan-2-one",
-    choiceB: "chloropropanone",
+    choiceA: "1-chlorobutan-2-one",
+    choiceB: "chlorobutanone",
     choiceC: "chloropropan-2-one",
-    choiceD: "1-chloro-2-oxypropane",
+    choiceD: "1-chloro-2-oxybutane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
