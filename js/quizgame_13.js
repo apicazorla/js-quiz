@@ -22,12 +22,12 @@ let questions = [{
     choiceA: "formamide",
     choiceB: "methanamide",
     choiceC: "carbamaldehyde",
-    choiceD: "methaneamide",
+    choiceD: "ethanamide",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13b.jpg",
-    choiceA: "hexaneamide",
+    choiceA: "pentanamide",
     choiceB: "hexylamide",
     choiceC: "hexanamide",
     choiceD: "caproamide",
@@ -79,7 +79,7 @@ let questions = [{
     choiceB: "benzamide",
     choiceC: "phenyl carboxamide",
     choiceD: "benzenecarboxamide",
-    correctAnswer: "A"
+    correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/13i.jpg",

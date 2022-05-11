@@ -85,8 +85,8 @@ let questions = [{
     imgSrc: "assets/birds/11i.jpg",
     choiceA: "3-cyclohexene-1,2-dicarboxylic acid",
     choiceB: "cyclohex-3-ene-1,2-dicarboxylic acid",
-    choiceC: "cyclohex-4-ene-1,2-dicarboxilic acid",
-    choiceD: "4-cyclohexene-1,2-dicarboxilic acid",
+    choiceC: "cyclohex-4-ene-1,2-dicarboxylic acid",
+    choiceD: "4-cyclohexene-1,2-dicarboxylic acid",
     correctAnswer: "B"
 }, {
     question: "What is the preferrer name of this compound?",
