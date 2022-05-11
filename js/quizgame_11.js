@@ -62,7 +62,7 @@ let questions = [{
     choiceA: "3-carboxy-3-hydroxypentanodioic acid",
     choiceB: "citric acid",
     choiceC: "2-hydroxypropane-1,2,3-tricarboxylic acid",
-    choiceD: "3-hydroxy-1,3,5-pentanotricarboxylic acid",
+    choiceD: "2-hydroxy-1,2,3-propanetricarboxylic acid",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
