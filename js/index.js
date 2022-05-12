@@ -1,5 +1,5 @@
 var i = 0; 
-var txt = 'Consult the theoretical contents on the preferred names in organic chemistry at www.nomenclaturaquimica.com';
+var txt = 'Consult the web www.nomenclaturaquimica.com';
 var speed = 50;
 function typeWriter() 
 { 
