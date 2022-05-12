@@ -30,7 +30,7 @@ let questions = [{
     choiceA: "3-aminohexane",
     choiceB: "3-hexanamine",
     choiceC: "hexan-3-amine",
-    choiceD: "1-ethylbutylamine",
+    choiceD: "(1-ethylbutyl)amine",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
@@ -43,7 +43,7 @@ let questions = [{
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/14d.jpg",
-    choiceA: "butyl(cycloproyl)azane",
+    choiceA: "butyl(cyclopropyl)azane",
     choiceB: "butyl(cyclopropyl)amine ",
     choiceC: "N-cyclobutylpropan-1-amine",
     choiceD: "N-propylcyclobutanamine",
