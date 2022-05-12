@@ -1,5 +1,5 @@
 var i = 0; 
-var txt = 'Share the web www.nomenclaturaquimica.com';
+var txt = 'Consulte los contenidos teóricos obre nomenclatura inorgánica en www.nomenclaturaquimica.com';
 var speed = 50;
 function typeWriter() 
 { 
