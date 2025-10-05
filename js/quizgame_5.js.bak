@@ -47,7 +47,7 @@ let questions = [{
     choiceB: "1,1-dichloro-2,2,2-trifluoroethane",
     choiceC: "2,2-dichloro-1,1,1-trifluoroethane",
     choiceD: "2,2,2-trifluoro-1,1-dichloroethane",
-    correctAnswer: "B"
+    correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
     imgSrc: "assets/birds/05e.jpg",
@@ -95,7 +95,7 @@ let questions = [{
     choiceB: "2-bromo-5-chloro-4-methylhex-4-ene",
     choiceC: "2-bromo-5-chloro-4-methylhex-3-ene",
     choiceD: "5-bromo-2-chloro-3-methylhex-3-ene",
-    correctAnswer: "C"
+    correctAnswer: "D"
 }, ];
 
 

@@ -18,84 +18,84 @@ var score = 0;
 
 let questions = [{
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05a.jpg",
-    choiceA: "methylene chloride",
-    choiceB: "methylene dichloride",
-    choiceC: "1,1-dichloromethane",
-    choiceD: "dichloromethane",
+    imgSrc: "assets/birds/01a.jpg",
+    choiceA: "pentane",
+    choiceB: "heptane",
+    choiceC: "hexane",
+    choiceD: "1,5-dimethylpentane",
+    correctAnswer: "B"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01b.jpg",
+    choiceA: "isopropane",
+    choiceB: "methylpropane",
+    choiceC: "isobutane",
+    choiceD: "2-methylpropane",
     correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05b.jpg",
-    choiceA: "bromodifluoromethane",
-    choiceB: "bromodi(fluoro)methane",
-    choiceC: "bromo(difluoro)methane",
-    choiceD: "(bromo)difluoromethane",
-    correctAnswer: "B"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05c.jpg",
-    choiceA: "chloroethane",
-    choiceB: "1-chloroethane",
-    choiceC: "ethyl chloride",
-    choiceD: "monochloroethane",
+    imgSrc: "assets/birds/01c.jpg",
+    choiceA: "2,2-dimethylpropane",
+    choiceB: "tetramethylmethane",
+    choiceC: "neopentane",
+    choiceD: "dimethylpropane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05d.jpg",
-    choiceA: "1,1,1-trifluoro-2,2-dichloroethane",
-    choiceB: "1,1-dichloro-2,2,2-trifluoroethane",
-    choiceC: "2,2-dichloro-1,1,1-trifluoroethane",
-    choiceD: "2,2,2-trifluoro-1,1-dichloroethane",
-    correctAnswer: "A"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05e.jpg",
-    choiceA: "sec-butyl chloride",
-    choiceB: "2-chlorobutane",
-    choiceC: "chlorobutane",
-    choiceD: "2-chlorobutene",
-    correctAnswer: "B"
-}, {
-    question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05f.jpg",
-    choiceA: "3-bromocyclopentene",
-    choiceB: "4-bromocyclopentene",
-    choiceC: "4-bromocyclopent-1-ene",
-    choiceD: "3-bromocyclopent-1-ene",
+    imgSrc: "assets/birds/01d.jpg",
+    choiceA: "isopentane",
+    choiceB: "methylbutane",
+    choiceC: "2-methylbutane",
+    choiceD: "2-methylpentane",
     correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05g.jpg",
-    choiceA: "p-dichlorobenzene",
-    choiceB: "m-dichlorobenzene",
-    choiceC: "para-dichlorobenzene",
-    choiceD: "1,4-dichlorobenzene",
-    correctAnswer: "D"
+    imgSrc: "assets/birds/01e.jpg",
+    choiceA: "2-methyl-4-ethylpentane",
+    choiceB: "2-ethyl-4-methylpentane",
+    choiceC: "2,4-dimethylhexane",
+    choiceD: "3,5-dimethylhexane",
+    correctAnswer: "C"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05h.jpg",
-    choiceA: "(chloromethyl)benzene",
-    choiceB: "benzyl chloride",
-    choiceC: "chloro(phenyl)methane",
-    choiceD: "chloromethylbenzene",
+    imgSrc: "assets/birds/01f.jpg",
+    choiceA: "3-ethyl-5-methylheptane",
+    choiceB: "5-ethyl-3-methylheptane",
+    choiceC: "5-ethyl-3-methylhexane",
+    choiceD: "3-ethyl-5-methylhexane",
     correctAnswer: "A"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05i.jpg",
-    choiceA: "perfluoroethylene",
-    choiceB: "tetrafluoroethene",
-    choiceC: "1,1,2,2-tetrafluoroethene",
-    choiceD: "tetrafluoroethylene",
-    correctAnswer: "B"
+    imgSrc: "assets/birds/01g.jpg",
+    choiceA: "trimethylbutane",
+    choiceB: "3,3,2-trimethylbutane",
+    choiceC: "3,3,2-trimethylbutane",
+    choiceD: "2,2,3-trimethylbutane",
+    correctAnswer: "D"
 }, {
     question: "What is the preferrer name of this compound?",
-    imgSrc: "assets/birds/05j.jpg",
-    choiceA: "2-chloro-3-methyl-5-bromohex-3-ene",
-    choiceB: "2-bromo-5-chloro-4-methylhex-4-ene",
-    choiceC: "2-bromo-5-chloro-4-methylhex-3-ene",
-    choiceD: "5-bromo-2-chloro-3-methylhex-3-ene",
-    correctAnswer: "D"
+    imgSrc: "assets/birds/01h.jpg",
+    choiceA: "4-(tert-butyl)heptane",
+    choiceB: "4-(1,1-dimethylethyl)heptane",
+    choiceC: "4-(2-methylpropan-2-yl)heptane",
+    choiceD: "4-(2-methylpropanyl)heptane",
+    correctAnswer: "A"
+}, {
+    question: "What's the preferrer name of this compound?",
+    imgSrc: "assets/birds/01i.jpg",
+    choiceA: "5-ethyl-3-methyl-4-propyloctane",
+    choiceB: "3-methyl-4,5-dipropylheptane",
+    choiceC: "4-(butan-2-yl)-5-ethyloctane",
+    choiceD: "4-(sec-butyl)-5-ethyloctane",
+    correctAnswer: "A"
+}, {
+    question: "What is the preferrer name of this compound?",
+    imgSrc: "assets/birds/01j.jpg",
+    choiceA: "4-isopropyl-3-methylheptane",
+    choiceB: "4-(1-methylethyl)-3-methylheptane",
+    choiceC: "3-methyl-4-(propan-2-yl)heptane",
+    choiceD: "3-methyl-4-(1-methylethyl)heptane",
+    correctAnswer: "C"
 }, ];
 
 
