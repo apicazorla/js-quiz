@@ -1,5 +1,5 @@
 var i = 0; 
-var txt = 'Consult you the theoretycal contents at web www.nomenclaturaquimica.com';
+var txt = 'Consult you the theoretical contents at web www.nomenclaturaquimica.com';
 var speed = 50;
 function typeWriter() 
 { 
